@@ -1,3 +1,19 @@
+/* 
+litepink -> rgb(255, 214, 226)
+medpink -> rgb(255, 207, 233)
+darkpink -> rgb(235, 168, 221) 
+litepurple -> rgb(175, 154, 197)
+medpurple -> rgb(173, 144, 198)
+darkpurple -> rgb(93, 75, 125)
+brick -> rgb(158, 60, 50)
+brown -> rgb(191, 120, 56)
+yellowbrown -> rgb(207, 133, 34)
+*/
+
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
 .App {
   text-align: center;
   display: flex;
@@ -11,26 +27,81 @@ nav {
   height: 5vh;
   justify-content: space-evenly;
   align-items: center;
-  border: solid;
-  background-color: black;
+  background-color: rgb(158, 60, 50);
 }
 nav a {
   text-decoration: none;
-  color: white;
+  color: rgb(175, 154, 197);
+  font-family: 'Aleygreya', serif;
+  font-size: 2.8vh;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
 }
 .page {
   height: 95vh;
   width: 100vw;
-  background-color: rgb(87, 41, 49);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* .home-page {
-  background-color: pink;
+
+/* Pages */
+/* Home */
+.home-page {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  background-color: rgb(158, 60, 50); 
+}
+.home-page h1 {
+  color: rgb(235, 168, 221);
+  font-family: 'Spicy Rice', cursive;
+  font-size: 20vh;
+  margin-top: 20vh;
+  margin-bottom: 0;
+}
+.home-page p {
+  width: 85vw;
+  margin-top: 1vh;
+  color: antiquewhite;
+  font-size: 2.5vh;
+  font-family: 'Aleygreya', serif;
+}
+
+/* About */
+
+/* Team */
+
+/* Register */
+
+/* Components */
+/* RegButton */
+.reg-button {
+  height: 6vh;
+  width: 20vw;
+  background-color:rgb(255, 207, 233);
+  border: solid;
+  border-color: rgb(93, 75, 125);
+  border-radius: 23%;
+  font-family: 'Aleygreya', serif;
+  color: rgb(93, 75, 125);
+  font-size: 2.1vh;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+  position: absolute;
+  bottom: 7vh;
+}
+.reg-button a {
+  text-decoration: none;
+}
+.reg-button:hover {
+  color:rgb(158, 60, 50);
+  border-style: double;
+}
 
 
