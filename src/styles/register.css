@@ -1,0 +1,60 @@
+/* 
+litepink -> rgb(255, 214, 226)
+medpink -> rgb(255, 207, 233)
+darkpink -> rgb(235, 168, 221) 
+litepurple -> rgb(175, 154, 197)
+medpurple -> rgb(173, 144, 198)
+darkpurple -> rgb(93, 75, 125)
+brick -> rgb(158, 60, 50)
+brown -> rgb(191, 120, 56)
+yellowbrown -> rgb(207, 133, 34)
+*/
+
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&display=swap');
+
+.register-page {
+    display: flex;
+  }
+  .sidebar {
+    height: 200vh;
+    width: 25vw;
+    background-color: rgb(158, 60, 50);
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #register-h1 {
+    font-family: 'Spicy Rice', cursive;
+    font-size: 12vh;
+    color: rgb(175, 154, 197);
+    /* transform: rotate(270deg); */
+    /* z-index: 1; */
+    padding: 2vh;
+    margin-top: 1vh;;
+  }
+  .main-section {
+    height: 200vh;
+    width: 75vw;
+    background-color: antiquewhite;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("https://i.imgur.com/hl0DRFy.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .register-page img {
+    z-index: 1;
+    height: 75vh;
+    width: 85vw;
+    margin-top: 5vh;
+  }

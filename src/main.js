@@ -4,6 +4,7 @@ import { AboutPage } from './pages/About';
 import { TeamPage } from './pages/Team';
 import { RegisterPage } from './pages/Register';
 
+
 export const Main = () => {
     return (
         <Routes>
