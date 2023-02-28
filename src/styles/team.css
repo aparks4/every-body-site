@@ -16,6 +16,6 @@ yellowbrown -> rgb(207, 133, 34)
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme&display=swap');
 
-/* .team-page {
-    background-url
-} */
+.team-page {
+    background-color: antiquewhite;
+}

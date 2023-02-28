@@ -1,4 +1,5 @@
 import '../styles/about.css';
+import { LoremIpsum } from 'react-lorem-ipsum';
 
 export const AboutPage = () => {
     return (
