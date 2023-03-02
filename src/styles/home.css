@@ -1,34 +1,4 @@
-/* 
-litepink -> rgb(255, 214, 226)
-medpink -> rgb(255, 207, 233)
-darkpink -> rgb(235, 168, 221) 
-litepurple -> rgb(175, 154, 197)
-medpurple -> rgb(173, 144, 198)
-darkpurple -> rgb(93, 75, 125)
-brick -> rgb(158, 60, 50)
-brown -> rgb(191, 120, 56)
-yellowbrown -> rgb(207, 133, 34)
-*/
-
-:root {
-    --litePink: rgb(255, 214, 226);
-    --medPink: rgb(255, 207, 233);
-    --darkPink: rgb(235, 168, 221) ;
-    --litePurple: rgb(175, 154, 197);
-    --medPurple: rgb(173, 144, 198);
-    --darkPurple: rgb(93, 75, 125);
-    --brick: rgb(158, 60, 50);
-    --brown: rgb(191, 120, 56);
-    --yellowBrown: rgb(207, 133, 34);
-}
-
-/* Font Imports */
-@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=BioRhyme&display=swap');
-
-.alt-page {
+.home-page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,72 +6,7 @@ yellowbrown -> rgb(207, 133, 34)
     background-color: antiquewhite;
     padding: 0;
 }
-.alt-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-    width: 23vw;
-    height: 25vh;
-    /* width: 40vw;
-    height: 15vh; */
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 2;
-    /* border: solid;
-    border-style: double;
-    border-width: 10px;
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-bottom-left-radius: 95%;
-    border-left-style:unset;
-    overflow: hidden;
-    background-color: rgb(158, 60, 50); */
-}
-.nav-btn {
-    background-color: rgba(0, 0, 0, 0);
-    border-style: none;
-    height: 9vh;
-    font-size: 10vh;
-    position: absolute;
-    z-index: 3;
-    top: 0;
-    right: 2vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    cursor: pointer;
-    color: var(--brick);
-}
-.nav-btn:hover, .x-btn:hover {
-    color: var(--yellowBrown);
-}
-.x-btn {
-    color: var(--brick);
-    background-color: rgba(0, 0, 0, 0);
-    border-style: none;
-    cursor: pointer;
-    font-size: 4.5vh;
-    font-weight: bold;
-    margin-right: 6vw;
-}
-
-.alt-nav a {
-    text-decoration: none;
-    /* color: rgb(235, 168, 221); */
-    color: var(--brick);
-    font-family: 'Spicy Rice', cursive;
-    font-size: 4vh;
-    margin-left: 1.5vw;
-    margin-right: 1.8vw;
-    margin-top: 15px;
-}
-.alt-nav a:hover {
-    color: var(--yellowBrown);
-}
-h1 {
+.home-page h1 {
     font-family: 'Spicy Rice', cursive;
     font-size: 22vh;
     color: var(--darkPink);
@@ -126,12 +31,27 @@ h1 {
     height: 100vh;
     width: 100vw;
     background-color: var(--brown);
-    bottom: 0;
+    top: 0;
     right: 0;
     border-top-left-radius: 100%;
 }
 .furthermore {
-    height: 100vh;
+    height: 40vh;
     width: 100vw;
-    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.furthermore .lorem-ipsum {
+    /* border: solid;
+    border-width: 8px;
+    border-color: var(--darkPurple); */
+    background-color: var(--litePurple);
+    color: var(--brick);
+    width: 70vw;
+    border-style: double;
+    font-family: 'Spicy Rice';
+    font-size: 2.5vh;
+    padding: 2vh;
 }

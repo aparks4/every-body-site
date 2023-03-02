@@ -1,20 +1,20 @@
-/* 
-litepink -> rgb(255, 214, 226)
-medpink -> rgb(255, 207, 233)
-darkpink -> rgb(235, 168, 221) 
-litepurple -> rgb(175, 154, 197)
-medpurple -> rgb(173, 144, 198)
-darkpurple -> rgb(93, 75, 125)
-brick -> rgb(158, 60, 50)
-brown -> rgb(191, 120, 56)
-yellowbrown -> rgb(207, 133, 34)
-*/
-
 /* Font Imports */
 @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme&display=swap');
+
+:root {
+  --litePink: rgb(255, 214, 226);
+  --medPink: rgb(255, 207, 233);
+  --darkPink: rgb(235, 168, 221) ;
+  --litePurple: rgb(175, 154, 197);
+  --medPurple: rgb(173, 144, 198);
+  --darkPurple: rgb(93, 75, 125);
+  --brick: rgb(158, 60, 50);
+  --brown: rgb(191, 120, 56);
+  --yellowBrown: rgb(207, 133, 34);
+}
 
 .App {
   text-align: center;
@@ -22,6 +22,67 @@ yellowbrown -> rgb(207, 133, 34)
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  background-color: antiquewhite;
+}
+
+h1 {
+  font-family: 'Spicy Rice';
+  color: var(--brick);
+}
+
+/* Nav Bar */
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 13vw;
+  height: 25vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+.nav-btn {
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  height: 9vh;
+  font-size: 6vh;
+  font-weight: bold;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  right: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+  color: var(--brick);
+}
+.nav-btn:hover, .x-btn:hover {
+  color: var(--yellowBrown);
+}
+.x-btn {
+  color: var(--brick);
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  cursor: pointer;
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--brick);
+  font-family: 'Spicy Rice', cursive;
+  font-size: 4vh;
+  margin-left: 1.5vw;
+  margin-right: 1.8vw;
+  margin-top: 15px;
+}
+.nav a:hover {
+  color: var(--yellowBrown);
 }
 
 /* Components */

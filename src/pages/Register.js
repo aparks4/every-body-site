@@ -1,8 +1,8 @@
 import '../styles/register.css';
 
-export const RegisterPage = () => {
+export const RetreatsPage = () => {
     return (
-        <div className="page register-page">
+        <div className="register-page">
             <div className="sidebar">
                 <h1 id="register-h1">retreats</h1>
             </div>

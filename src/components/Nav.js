@@ -1,26 +1,39 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { RegButton } from './RegButton';
 
 export const Nav = () => {
+    const [nav, setNav] = useState(false);
+
+    const location = useLocation();
+
+    const displayNav = async (e) => {
+        e.preventDefault();
+        setNav(true);
+    };
+
+    const exitNav = async (e) => {
+        e.preventDefault();
+        setNav(false);
+    };
+
+    useEffect(() => {
+        setNav(false);
+        console.log(location.pathname);
+    }, [location]);
+
     return (
         <>
-            <nav>
+            {nav ?
+            <div className="nav">
                 <Link to="/">home</Link>
                 <Link to="/about">about us</Link>
-                <Link to="/team">meet the team</Link>
-                <Link to="/register">register</Link>
-                {/* <div className="flower-frame">
-                    <Link to="/">home</Link>
-                </div>
-                <div className="flower-frame">
-                    <Link to="/about">about us</Link>
-                </div>
-                <div className="flower-frame">
-                    <Link to="/team">meet the team</Link>
-                </div>
-                <div className="flower-frame">
-                    <Link to="/register">register</Link>
-                </div> */}
-            </nav>
+                <Link to="/team">our team</Link>
+                <Link to="/retreats">retreats</Link>
+                <button onClick={exitNav} className="x-btn">☓</button>
+            </div> :
+            <button className="nav-btn" onClick={displayNav}>☰</button>
+            }
         </>
     )
 }
