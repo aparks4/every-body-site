@@ -30,6 +30,7 @@ export const Nav = () => {
                 <Link to="/about">about us</Link>
                 <Link to="/team">our team</Link>
                 <Link to="/retreats">retreats</Link>
+                <Link to="/test">test page</Link>
                 <button onClick={exitNav} className="x-btn">☓</button>
             </div> :
             <button className="nav-btn" onClick={displayNav}>☰</button>

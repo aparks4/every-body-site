@@ -1,0 +1,20 @@
+
+.test-main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-animation-container h1 {
+    font-size: 7vh;
+    font-family: serif;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.animated-text {
+    margin: 0;
+}

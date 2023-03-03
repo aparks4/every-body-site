@@ -15,7 +15,8 @@ export const HomePage = () => {
         <div className="furthermore">
             <div className="deco-border"></div>
             <div className="lorem-ipsum">
-                <LoremIpsum p={1} />
+                {/* <LoremIpsum p={1} /> */}
+                <p>An impactful retreat experience helping everybody understand that every body is worthy of love, respect, & care.</p>
             </div>
         </div>
         </>
