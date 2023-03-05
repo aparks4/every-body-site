@@ -25,10 +25,10 @@
   background-color: antiquewhite;
 }
 
-h1 {
+/* h1 {
   font-family: 'Spicy Rice';
   color: var(--brick);
-}
+} */
 
 /* Nav Bar */
 .nav {
@@ -88,29 +88,26 @@ h1 {
 /* Components */
 /* RegButton */
 .reg-button {
-  height: 6vh;
-  width: 20vw;
-  background-color: rgb(255, 207, 233);
+  height: 8vh;
+  width: 7vw;
+  background-color: var(--brick);
   border: solid;
-  border-color: rgb(93, 75, 125);
+  border-color: var(--brick);
   border-radius: 23%;
-  font-family: 'Aleygreya', serif;
-  font-size: 2.1vh;
+  font-family: 'Spicy Rice';
+  font-size: 3vh;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  bottom: 45vh;
-  margin: auto;
-  left: 0;
-  right: 0;
 }
 .reg-button a {
   text-decoration: none;
+  color: var(--darkPink);
 }
 .reg-button:hover {
-  border-style: double;
+  border: solid;
+  border-color: var(--darkPink);
 }
 
 /* Flower Frame */

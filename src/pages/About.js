@@ -5,7 +5,7 @@ import { AnimatedText } from '../components/AnimatedText';
 export const AboutPage = () => {
     return (
         <div className="about-page">
-            {/* <h1>about us</h1> */}
+
             <p>
                 Our mission is to help everybody understand that <span style={{ 'font-weight': 'bold', 'color': 'var(--brick)'}}>every body</span> is worthy of love, respect, and care.
             </p>
