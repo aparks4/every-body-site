@@ -1,0 +1,105 @@
+.team-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 330vh;
+    width: 100vw;
+    font-family: 'Spicy Rice';
+}
+
+.team-page h1 {
+    color: var(--brick);
+    /* font-size: 15vh;
+    transform: rotate(270deg);
+    position: fixed;
+    left: -18vw;
+    top: 30vh;  */
+    font-size: 6vh;
+    margin-top: 0;
+    border: solid;
+    border-style: double;
+    border-width: 1vh;
+    padding: 2vh;
+    /* -webkit-text-stroke: .2px;
+    -webkit-text-stroke-color: var(--darkPink); */
+
+}
+
+.team-members {
+    height: 280vh;
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 7vh;
+}
+
+.team-member-container {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.team-member-photo-container {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+}
+
+.team-member-photo {
+    height: 40vh;
+    width: 23vw;
+    object-fit: contain;
+}
+
+.team-member-bio {
+    height: 45vh;
+    width: 60%;
+    text-align: left;
+    font-size: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Alegray';
+}
+.team-member-bio p {
+    margin-top: 0;
+}
+
+.web-nav {
+    width: 100vw;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+}
+.web-nav a {
+    color: var(--brick);
+    font-size: 3.7vh;
+    text-decoration: none;
+}
+.web-nav a:hover {
+    color: var(--darkPink);
+}
+.web-nav-left, .web-nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 35vw;
+}
+.web-nav-left {
+    margin-right: 1vw;
+}
+.web-nav-right {
+    margin-left: 1vw;
+}

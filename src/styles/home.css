@@ -61,10 +61,20 @@
     margin: auto;
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
-    border: solid;
+    /* border: solid;
     border-color: var(--brick);
     border-width: 6px;
-    border-style: double;
+    border-style: double; */
+}
+.insta-icon {
+    font-size: 6vh;
+    color: var(--brick);
+    position: absolute;
+    bottom: 2vh;
+    right: 2vw;
+}
+.insta-icon:hover {
+    color: var(--darkPink);
 }
 .furthermore {
     height: 40vh;

@@ -3,18 +3,40 @@
   width: 100vh;
 }
 
-.about-page h1 {
+.about-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
   position: absolute;
-  font-size: 13vh;
-  left: 0;
   top: 0;
-  margin-top: 0;
+  width: 100vw;
+  color: var(--brick);
+}
+.about-page-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+  margin-top: 10vh;
+}
+
+.about-page .our-mission-container h3 {
+  font-family: 'Alegray';
+  font-size: 4vh;
+  text-align: center;
+  color: var(--brick);
   border: solid;
   border-style: double;
-  border-width: 8px;
-  padding: 2vh;
-  background-color: var(--brick);
-  color: var(--litePink);
 }
+.about-page .our-mission-container {
+  color: black;
+  font-size: 18px;
+  height: 65vh;
+  width: 60vw;
+}
+
+
 
   

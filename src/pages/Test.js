@@ -26,15 +26,16 @@ export const TestPage = () => {
 
                 <div className="test-main">
                     <div className="test-main-left">
-                        <div className="our-mission-container">
+                        <div>
                             <h3>Our mission is to help everybody understand that <span style={{'color': 'var(--yellowBrown)'}}>every body</span> is worthy of <br></br> <span style={{'color': 'var(--brick)', 'font-family': 'Spicy Rice', 'font-size': '7vh'}}>love, respect, & care.</span></h3>
                         </div>
 
-                        <div className="lorem-ipsum">
-                            {/* <LoremIpsum p={1}/> */}
+                        <div>
                             <p>All four of us have our own stories of how we overcame disordered eating and broken body image. As a result, we have a shared passion and drive to help others accept and love the bodies they are in.</p>
 
                             <p>Independently, we each had our own ideas of creating a space where people could learn how to heal their relationship with food and their bodies. Our paths crossed and we knew we had to create something together.</p>
+
+                            <p>So, we created Every Body - a place where people can connect, learn, and heal together. This summer we are hosting retreats for girls & women. Through education provided by guest therapists and dieticians, we invite you to come and gain skills that will help you improve your relationship with your body and food. Walk away empowered and connected with new mentors and friends. See more details <Link to="/retreats">here</Link>.</p>
                         </div>
 
                         {/* <button className="mock-btn">press</button> */}
@@ -45,11 +46,6 @@ export const TestPage = () => {
                         </div>
 
                     </div>
-                </div>
-
-                <div className="test-bottom-text">
-                    <p>So, we created Every Body - a place where people can connect, learn, and heal together. This summer, we are hosting retreats for girls & women. Through education provided by guest therapists and dieticians, we invite you to come and gain skills that will help you improve your relationship with your body and food. Walk away empowered and connected with new mentors and friends.</p>
-
                 </div>
             </div>
         </>
