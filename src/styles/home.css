@@ -2,46 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     padding: 0;
-}
-
-/* .home-page .test-nav {
-    z-index: 3;
-    position: absolute;
-    flex-direction: column;
-    top: 0;
-    left: 0;
-    width: 10vw; 
-    height: 30vh;
-    padding-left: 1vw;
-    align-items: flex-start;
-} */
-.left-nav, .right-nav {
-    font-family: 'Spicy Rice';
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    width: 32vw;
-    height: 8vh;
-}
-.left-nav a, .right-nav a {
-    text-decoration: none;
-    color: var(--brick);
-    font-size: 4vh;
-}
-.left-nav a:hover, .right-nav a:hover {
-    /* color: var(--darkPink); */
-    text-decoration: underline;
-}
-.left-nav {
-    left: 0
-}
-.right-nav {
-    right: 0;
 }
 
 .home-tagline {
@@ -58,7 +20,7 @@
 
 .home-page h1 {
     font-family: 'Spicy Rice', cursive;
-    font-size: 23vh;
+    font-size: 10vw;
     color: var(--darkPink);
     z-index: 1;
     margin-top: 0;
@@ -68,7 +30,7 @@
     bottom: 5vh;
 }
 .drawing {
-    height: 98vh;
+    height: 95vh;
     width: 80vw;
     z-index: 1;
     background-image: url("https://i.imgur.com/x3K0ZcT.png");
@@ -77,21 +39,29 @@
     position: absolute;
     bottom: 0;
 }
-/* .blob {
-    z-index: 0;
-    position: absolute;
-    height: 98vh;
-    width: 60vw;
-    background-color: var(--brown);
-    bottom: 1vh;
-    margin: auto;
-    border-top-left-radius: 100%;
-    border-top-right-radius: 100%;
-} */
+
 .blob {
     background-color: var(--brown);
-    height: 95vh;
-    width: 96vw;
-    /* border-radius: 20px; */
+    height: 98vh;
+    width: 97%;
+    margin: 0 auto;
 
+}
+
+@media only screen and (min-width: 768px) {
+    .home-tagline {
+        width: 10vw;
+    }
+
+    .home-page h1 {
+        font-size: 23vh;
+    }
+
+    .drawing {
+        height: 98vh;
+    }
+
+    .blob {
+        height: 95vh;
+    }
 }
