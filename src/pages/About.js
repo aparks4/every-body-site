@@ -12,12 +12,13 @@ export const AboutPage = () => {
     return (
         <>  
             <Nav />
+            {/* <WebNav /> */}
             <FixedLinks />
             {/* <div className="bg-blob"></div> */}
             <div className="about-page">
 
                 <div className="our-mission-container">
-                    <h3>Our mission is to help everybody understand that <span style={{'font-size': '5vh', 'font-weight': 'bolder'}}>every body</span> is worthy of <br /> <span style={{'font-family': 'Spicy Rice', 'font-size': '7vh'}}>love, respect, & care.</span></h3>
+                    <h3>Our mission is to help everybody understand that <span className="every-body-bold">every body</span> is worthy of <br /> <span className="love-respect-care">love, respect, & care.</span></h3>
                 </div>
 
                 <h2>Our Story</h2>
@@ -43,9 +44,10 @@ export const AboutPage = () => {
                     </div> 
                 </div>
 
+                <TeamPage />
+
             </div>
 
-            <TeamPage />
         
         </>
     )

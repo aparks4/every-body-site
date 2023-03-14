@@ -1,5 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
+import { CgEditUnmask } from 'react-icons/cg';
 
 export const Nav = () => {
     const [nav, setNav] = useState(false);
@@ -45,10 +46,14 @@ export const Nav = () => {
                             <Link key={link.to} to={link.to}>{link.label}</Link>
                         ) : null;
                     })}
-
+                    <button className="x-btn" onClick={() => setNav(false)}>☓</button>
                 </div>
             ) : (
                 <button className="nav-btn" onClick={displayNav}>☰</button>
+                // <button className="nav-btn" onClick={displayNav}>
+                //     ✢
+                // </button>
+
             )}
         </>
     )

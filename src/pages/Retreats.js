@@ -9,7 +9,8 @@ export const RetreatsPage = () => {
             <Nav />
             <FixedLinks />
 
-            <h1 style={{'margin-top': '12vh'}}>Summer 2023</h1>
+            <h1 style={{'margin-top': '10vh'}}>Summer 2023</h1>
+            <p>We can`t wait to learn and grow with you!</p>
                 <div className="retreats-info-container">
                     <div className="retreats-info-main">
                         <div className="date-location-container">
@@ -39,11 +40,6 @@ export const RetreatsPage = () => {
                         <h2>Instructors</h2>
                     </div>
                 </div>
-
-
-
-            
-            {/* <p>We can`t wait to learn and grow with you!</p> */}
 
         </div>
     )

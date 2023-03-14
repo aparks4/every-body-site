@@ -4,7 +4,9 @@
     justify-content: flex-start;
     align-items: center;
     font-family: 'Spicy Rice';
-    z-index: 0;
+    height: 140vh;
+    width: 100vw;
+    z-index: 1;
 }
 
 
@@ -32,9 +34,7 @@
 
 .team-page h2 {
   font-size: 5vh;
-  margin-top: 10vh;
   margin-bottom: 3vh;
-
 }
 
 .team-members-container {
@@ -58,7 +58,7 @@
     align-items: center;
     justify-content: center;
   
-  }
+}
 .team-member-photo-container {
     width: 100%;
     font-size: 3vh;
@@ -67,14 +67,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
 .team-member-photo {
     height: 35vh;
     width: 35vh;
     background-position: center;
     background-size: cover;
     border-radius: 20px;
-  }
+}
   
 .team-member-blurb {
     height: 100%;
@@ -85,6 +85,37 @@
     display: flex;
     align-items: center;
     font-family: 'Abhaya Libre', serif;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .team-page h2 {
+    font-size: 4vh;
+    margin-top: 0;
   }
+
+  .team-members-container {
+    width: 70vw;
+    padding: 10px;
+  }
+  .team-member-card {
+    height: 40vh;
+    width: 35vw;
+  }
+
+  .team-member-photo {
+    height: 25vh;
+    width: 25vh;
+  }
+
+  .team-member-blurb {
+    font-size: 8px;
+  }
+}
+
+
+
+
+
   
 

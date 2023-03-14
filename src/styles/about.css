@@ -1,25 +1,28 @@
 .about-page {
-  height: 100vh;
+  height: 260vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
   font-family: 'Spicy Rice';
+  z-index: 1;
 }
 
 .bg-blob {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 2vh;
   right: 0;
-  margin: auto;
-  background-color: var(--brown);
-  height: 100vh;
-  width: 100vw;
+  left: 0;
+  bottom: 0;
+  margin: 0 auto;
+  background-color: var(--brick);
+  height: 241vh;
+  width: 95vw;
   z-index: 0;
-  border-top-right-radius: 100%;
-  border-top-left-radius: 100%;
+  border-radius: 20px;
+  /* border-top-right-radius: 100%;
+  border-top-left-radius: 100%; */
 }
 
 .our-mission-container {
@@ -40,6 +43,16 @@
   font-size: 3.5vh;
   text-align: center;
   color: black;
+}
+
+.every-body-bold {
+  font-size: 5vh;
+  font-weight: bolder;
+}
+
+.love-respect-care {
+  font-size: 7vh;
+  font-family: 'Spicy Rice';
 }
 
 .about-page h2 {
@@ -102,6 +115,60 @@
   border-top-left-radius: 100%;
 }
 
+@media only screen and (max-width: 1050px) {
+  .our-story-container {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .our-story-container {
+    font-size: 12px;
+  } 
+}
+
+@media only screen and (max-width: 480px) {
+  .our-mission-container h3 {
+    font-size: 2.5vh;
+  }
+
+  .our-mission-container {
+    margin-bottom: 0;
+  }
+
+  .every-body-bold {
+    font-size: 3.5vh;
+  }
+
+  .love-respect-care {
+    font-size: 5vh;
+  }
+
+  .about-page h2 {
+    font-size: 4vh;
+    margin-top: 1vh;
+    margin-bottom: 0;
+  }
+
+  .about-page-main {
+    width: 100vw;
+    justify-content: space-evenly;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .our-story-container {
+    font-size: 9px;
+  }
+
+  .about-us-pic {
+    width: 40vw;
+  }
+  .fixed-links-container {
+    right: 5px;
+  }
+
+}
 
 
 
