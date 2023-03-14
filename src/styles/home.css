@@ -95,22 +95,3 @@
     /* border-radius: 20px; */
 
 }
-
-.furthermore {
-    height: 40vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.furthermore .lorem-ipsum {
-    background-color: var(--litePurple);
-    color: var(--brick);
-    width: 70vw;
-    border-style: double;
-    font-family: 'Abhaya Libre', serif;
-    font-weight: bold;
-    font-size: 3vh;
-    padding: 2vh;
-}

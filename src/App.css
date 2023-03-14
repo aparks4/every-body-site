@@ -112,28 +112,6 @@
   align-items: center;
   justify-content: space-evenly;
 }
-.web-nav-left {
-  margin-right: 1vw;
-  width: 5vw;
-}
-.web-nav-right {
-  margin-left: 1vw;
-  width: 50vw;
-}
-.web-nav-left h1 {
-  padding: 0;
-  text-decoration: none;
-  color: var(--brick);
-}
-.web-nav-left a {
-  font-size: 8vh;
-  text-decoration: none;
-}
-.web-nav-left a:hover {
-  text-decoration: none;
-  color: var(--darkPurple);
-}
-
 
 .fixed-links-container {
   display: flex;
@@ -156,7 +134,7 @@
   color: var(--darkPink);
 }
 .insta-icon {
-  font-size: 5vh;
+  font-size: 4.5vh;
 }
 
 
