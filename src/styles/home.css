@@ -3,9 +3,20 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: antiquewhite;
     padding: 0;
 }
+
+/* .home-page .test-nav {
+    z-index: 3;
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 10vw; 
+    height: 30vh;
+    padding-left: 1vw;
+    align-items: flex-start;
+} */
 .left-nav, .right-nav {
     font-family: 'Spicy Rice';
     display: flex;
@@ -14,16 +25,17 @@
     position: absolute;
     z-index: 2;
     top: 0;
-    width: 35vw;
+    width: 32vw;
     height: 8vh;
 }
 .left-nav a, .right-nav a {
     text-decoration: none;
     color: var(--brick);
-    font-size: 5vh;
+    font-size: 4vh;
 }
 .left-nav a:hover, .right-nav a:hover {
-    color: var(--darkPink);
+    /* color: var(--darkPink); */
+    text-decoration: underline;
 }
 .left-nav {
     left: 0
@@ -32,11 +44,23 @@
     right: 0;
 }
 
+.home-tagline {
+    font-family: 'Abhaya Libre', serif;
+    position: absolute;
+    right: 4vw;
+    top: 2vh;
+    width: 10vw;
+    text-align: right;
+    font-weight: bold;
+    font-size: 23px;
+
+}
+
 .home-page h1 {
     font-family: 'Spicy Rice', cursive;
-    font-size: 22vh;
+    font-size: 23vh;
     color: var(--darkPink);
-    z-index: 2;
+    z-index: 1;
     margin-top: 0;
     margin-bottom: 0;
     align-self: flex-end;
@@ -45,37 +69,33 @@
 }
 .drawing {
     height: 98vh;
-    width: 85vw;
+    width: 80vw;
     z-index: 1;
     background-image: url("https://i.imgur.com/x3K0ZcT.png");
     background-position: center;
     background-size: cover;
+    position: absolute;
+    bottom: 0;
 }
-.blob {
+/* .blob {
     z-index: 0;
     position: absolute;
-    height: 100vh;
-    width: 55vw;
+    height: 98vh;
+    width: 60vw;
     background-color: var(--brown);
-    top: 0;
+    bottom: 1vh;
     margin: auto;
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
-    /* border: solid;
-    border-color: var(--brick);
-    border-width: 6px;
-    border-style: double; */
+} */
+.blob {
+    background-color: var(--brown);
+    height: 95vh;
+    width: 96vw;
+    /* border-radius: 20px; */
+
 }
-.insta-icon {
-    font-size: 6vh;
-    color: var(--brick);
-    position: absolute;
-    bottom: 2vh;
-    right: 2vw;
-}
-.insta-icon:hover {
-    color: var(--darkPink);
-}
+
 .furthermore {
     height: 40vh;
     width: 100vw;
@@ -85,14 +105,12 @@
     text-align: center;
 }
 .furthermore .lorem-ipsum {
-    /* border: solid;
-    border-width: 8px;
-    border-color: var(--darkPurple); */
     background-color: var(--litePurple);
     color: var(--brick);
     width: 70vw;
     border-style: double;
-    font-family: 'Spicy Rice';
-    font-size: 2.5vh;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+    font-size: 3vh;
     padding: 2vh;
 }

@@ -1,40 +1,55 @@
 import { Link, useLocation } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import { RegButton } from './RegButton';
+import { useState, useEffect, useRef } from 'react';
 
 export const Nav = () => {
     const [nav, setNav] = useState(false);
 
     const location = useLocation();
+    const navRef= useRef(null);
+
+    const handleOutsideClick = (e) => {
+        if (navRef.current && !navRef.current.contains(e.target)) {
+            setNav(false);
+        }
+    };
+
 
     const displayNav = async (e) => {
         e.preventDefault();
         setNav(true);
     };
 
-    const exitNav = async (e) => {
-        e.preventDefault();
-        setNav(false);
-    };
-
     useEffect(() => {
-        setNav(false);
-        console.log(location.pathname);
-    }, [location]);
+        
+        window.addEventListener("mousedown", handleOutsideClick);
+
+        return () => {
+            window.removeEventListener("mousedown", handleOutsideClick);
+        };
+
+    }, []);
+
+    const links = [
+        { to: '/', label: 'home' },
+        { to: '/about', label: 'about us' },
+        { to: '/retreats', label: 'retreats' },
+    ];
 
     return (
         <>
-            {nav ?
-            <div className="nav">
-                <Link to="/">home</Link>
-                <Link to="/about">about us</Link>
-                <Link to="/team">our team</Link>
-                <Link to="/retreats">retreats</Link>
-                <Link to="/test">test page</Link>
-                <button onClick={exitNav} className="x-btn">☓</button>
-            </div> :
-            <button className="nav-btn" onClick={displayNav}>☰</button>
-            }
+            {nav ? (
+                <div className="nav" ref={navRef}>
+                    {links.map((link) => {
+                        const isActive = link.to === location.pathname;
+                        return !isActive ? (
+                            <Link key={link.to} to={link.to}>{link.label}</Link>
+                        ) : null;
+                    })}
+
+                </div>
+            ) : (
+                <button className="nav-btn" onClick={displayNav}>☰</button>
+            )}
         </>
     )
 }
