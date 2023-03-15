@@ -75,7 +75,7 @@
     }
     .home-page h1 {
         font-size: 16vh;
-        bottom: 10vh;
+        bottom: 9vh;
         line-height: 15vh;
     }
     .blob {
@@ -86,13 +86,13 @@
         position: absolute;
         right: 0;
         bottom: 0;
-        height: 9vh;
+        height: 8vh;
         flex-direction: row;
         width: 100vw;
         justify-content: space-evenly;
         align-items: center;
     }
-    .home-page .fixed-links-container a {
+    .home-page .fixed-links-container a, .nav .fixed-links-container a {
         font-size: 4.5vh;
     }
 }
