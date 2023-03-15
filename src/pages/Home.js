@@ -9,8 +9,8 @@ export const HomePage = () => {
     
     return (
         <>
-        {/* <Nav /> */}
-        <WebNav />
+        <Nav />
+        {/* <WebNav /> */}
         <p className="home-tagline">An impactful retreat experience helping people love the bodies they are in.</p>
 
         <div className="home-page">

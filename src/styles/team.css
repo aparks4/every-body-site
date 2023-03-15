@@ -88,19 +88,26 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .team-page {
+    height: 185vh;
+  }
 
   .team-page h2 {
     font-size: 4vh;
-    margin-top: 0;
   }
 
   .team-members-container {
-    width: 70vw;
+    width: 90vw;
     padding: 10px;
+    flex-direction: column;
   }
   .team-member-card {
-    height: 40vh;
+    height: 35vh;
     width: 35vw;
+  }
+
+  .team-member-photo-container {
+    font-size: 2.5vh;
   }
 
   .team-member-photo {
@@ -109,8 +116,11 @@
   }
 
   .team-member-blurb {
-    font-size: 8px;
+    font-size: 12px;
+    width: 70vw;
+    height: 35vh;
   }
+
 }
 
 

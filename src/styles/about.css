@@ -128,44 +128,72 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .about-page {
+    height: 320vh;
+  }
   .our-mission-container h3 {
-    font-size: 2.5vh;
+    font-size: 2.2vh;
   }
 
   .our-mission-container {
     margin-bottom: 0;
+    margin-top: 4vh;
+    width: 85vw;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .every-body-bold {
-    font-size: 3.5vh;
+    font-size: 3.2vh;
   }
 
   .love-respect-care {
-    font-size: 5vh;
+    font-size: 3.5vh;
   }
 
   .about-page h2 {
     font-size: 4vh;
-    margin-top: 1vh;
+    margin-top: 0;
     margin-bottom: 0;
+    line-height: 4vh;
   }
 
   .about-page-main {
     width: 100vw;
+    height: 80vh;
+    flex-direction: column-reverse;
+    align-items: center;
     justify-content: space-evenly;
     margin-top: 0;
     margin-bottom: 0;
   }
 
   .our-story-container {
-    font-size: 9px;
+    font-size: 14px;
+    width: 70vw;
+    height: 50vh;
   }
 
+  .about-us-pic-container {
+    align-items: center;
+    margin-bottom: 2vh;
+    height: 35vh;
+    margin-top: 0;
+  }
   .about-us-pic {
-    width: 40vw;
+    width: 75vw;
   }
   .fixed-links-container {
-    right: 5px;
+    right: 5vw;
+    z-index: 0;
+
+  }
+  .fixed-links-container a {
+    font-size: 3.5vh;
+  }
+  .about-page .nav {
+    z-index: 3;
   }
 
 }

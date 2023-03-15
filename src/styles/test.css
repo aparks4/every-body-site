@@ -54,3 +54,32 @@
   background-color: antiquewhite;
 }
 
+
+/* .retreats-bg {
+    position: absolute;
+    margin: 0 auto;
+    z-index: 0;
+    height: 75vh;
+    width: 65vw;
+    background-color: bisque;
+    background-image: linear-gradient(
+        45deg,
+        var(--brick) 25%,
+        transparent 25%,
+        transparent 75%,
+        var(--brick) 75%,
+        var(--brick)
+      ),
+      linear-gradient(
+        -45deg,
+        var(--brick) 25%,
+        transparent 25%,
+        transparent 75%,
+        var(--brick) 75%,
+        var(--brick)
+      );
+      background-repeat: repeat;
+      background-size: 60px 60px;
+      border-radius: 20px;
+  
+} */

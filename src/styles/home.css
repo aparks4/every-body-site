@@ -70,6 +70,22 @@
         font-size: 2vh;
     }
 
+    .nav-btn {
+        top: 1vh;
+        font-size: 5vh;
+    }
+    .x-btn {
+        top: 1vh;
+        left: 1vw;
+    }
+    .nav a {
+        color: var(--darkPink);
+        font-size: 5vh;
+    }
+    .nav a:hover {
+        text-decoration: underline;
+    }
+
     .home-tagline {
         font-size: 16px;
         right: 5vw;
@@ -78,13 +94,13 @@
     }
 
     .drawing {
-        height: 63vh;
+        height: 70vh;
         bottom: 15vh; 
         background-size: cover;
         width: 100vw;
     }
     .home-page h1 {
-        font-size: 15vh;
+        font-size: 14vh;
         bottom: 15vh;
         line-height: 15vh;
     }
@@ -93,34 +109,17 @@
         width: 100vw;
     }
     .home-page .fixed-links-container {
+        position: absolute;
         right: 0;
         bottom: 0;
-        height: 15vh;
+        height: 11vh;
         flex-direction: row;
         width: 100vw;
         justify-content: space-evenly;
         align-items: center;
     }
     .home-page .fixed-links-container a {
-        font-size: 6vh;
+        font-size: 5vh;
     }
 }
 
-/* 
-@media only screen and (min-width: 768px) {
-    .home-tagline {
-        width: 10vw;
-    }
-
-    .home-page h1 {
-        font-size: 23vh;
-    }
-
-    .drawing {
-        height: 98vh;
-    }
-
-    .blob {
-        height: 95vh;
-    }
-} */
