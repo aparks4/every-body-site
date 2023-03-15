@@ -136,3 +136,30 @@
 }
 
 
+@media only screen and (max-width: 480px) {
+  .web-nav {
+    top: 2vh;
+    left: 5vw;
+    height: 13vh;
+  }
+  .web-nav a {
+      font-size: 2vh;
+  }
+  .nav-btn {
+      top: 1vh;
+      font-size: 6vh;
+      line-height: 5vh;
+  }
+  .x-btn {
+      top: 1vh;
+      left: 1vw;
+  }
+  .nav a {
+      color: var(--darkPink);
+      font-size: 5vh;
+  }
+  .nav a:hover {
+      text-decoration: underline;
+  }
+}
+

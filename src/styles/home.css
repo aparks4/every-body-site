@@ -61,47 +61,21 @@
 }
 
 @media only screen and (max-width: 480px) {
-    .web-nav {
-        top: 2vh;
-        left: 5vw;
-        height: 13vh;
-    }
-    .web-nav a {
-        font-size: 2vh;
-    }
-
-    .nav-btn {
-        top: 1vh;
-        font-size: 6vh;
-    }
-    .x-btn {
-        top: 1vh;
-        left: 1vw;
-    }
-    .nav a {
-        color: var(--darkPink);
-        font-size: 5vh;
-    }
-    .nav a:hover {
-        text-decoration: underline;
-    }
-
     .home-tagline {
         font-size: 16px;
         right: 5vw;
         width: 20vw;
-        top: 1vh;
+        top: 0;
     }
-
     .drawing {
-        height: 80vh;
-        bottom: 10vh; 
+        height: 75vh;
+        bottom: 8vh; 
         background-size: cover;
         width: 100vw;
     }
     .home-page h1 {
-        font-size: 17vh;
-        bottom: 13vh;
+        font-size: 16vh;
+        bottom: 10vh;
         line-height: 15vh;
     }
     .blob {
@@ -112,7 +86,7 @@
         position: absolute;
         right: 0;
         bottom: 0;
-        height: 10vh;
+        height: 9vh;
         flex-direction: row;
         width: 100vw;
         justify-content: space-evenly;
