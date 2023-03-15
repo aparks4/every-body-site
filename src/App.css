@@ -31,7 +31,7 @@
   align-items: center;
   position: fixed;
   top: 0;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-color: var(--brick);
   z-index: 3;
