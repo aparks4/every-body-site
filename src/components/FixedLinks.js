@@ -21,7 +21,7 @@ export const FixedLinks = () => {
                 </Link>
 
                 <Link to="mailto:everybodyretreats@gmail.com" target='_blank' rel='noreferrer'>
-                    <FaRegEnvelope style={{'font-size': '5vh'}} />
+                    <FaRegEnvelope />
                 </Link>
 
             </div>
