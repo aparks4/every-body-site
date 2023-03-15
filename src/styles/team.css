@@ -89,7 +89,7 @@
 
 @media only screen and (max-width: 480px) {
   .team-page {
-    height: 185vh;
+    height: 240vh;
   }
 
   .team-page h2 {
@@ -103,8 +103,8 @@
     flex-direction: column;
   }
   .team-member-card {
-    height: 35vh;
-    width: 35vw;
+    height: 40vh;
+    width: 40vw;
   }
 
   .team-member-photo-container {
@@ -112,8 +112,8 @@
   }
 
   .team-member-photo {
-    height: 25vh;
-    width: 25vh;
+    height: 30vh;
+    width: 30vh;
   }
 
   .team-member-blurb {
