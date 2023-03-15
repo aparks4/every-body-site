@@ -137,7 +137,7 @@
 .nav .fixed-links-container {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 10vh;
   height: 8vh;
   flex-direction: row;
   width: 100vw;
@@ -162,7 +162,7 @@
   }
   .x-btn {
       top: 0;
-      left: 0;
+      left: 3.5vw;;
       padding: 0;
       margin: 0;
   }
