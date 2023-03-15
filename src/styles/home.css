@@ -72,7 +72,7 @@
 
     .nav-btn {
         top: 1vh;
-        font-size: 5vh;
+        font-size: 6vh;
     }
     .x-btn {
         top: 1vh;
@@ -94,14 +94,14 @@
     }
 
     .drawing {
-        height: 70vh;
-        bottom: 15vh; 
+        height: 80vh;
+        bottom: 10vh; 
         background-size: cover;
         width: 100vw;
     }
     .home-page h1 {
-        font-size: 14vh;
-        bottom: 15vh;
+        font-size: 17vh;
+        bottom: 13vh;
         line-height: 15vh;
     }
     .blob {
@@ -112,14 +112,14 @@
         position: absolute;
         right: 0;
         bottom: 0;
-        height: 11vh;
+        height: 10vh;
         flex-direction: row;
         width: 100vw;
         justify-content: space-evenly;
         align-items: center;
     }
     .home-page .fixed-links-container a {
-        font-size: 5vh;
+        font-size: 4.5vh;
     }
 }
 
