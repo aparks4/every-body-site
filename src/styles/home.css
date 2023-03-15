@@ -71,7 +71,7 @@
     }
 
     .home-tagline {
-        font-size: 15px;
+        font-size: 16px;
         right: 5vw;
         width: 20vw;
         top: 1vh;
@@ -79,13 +79,14 @@
 
     .drawing {
         height: 63vh;
-        bottom: 20vh; 
+        bottom: 15vh; 
         background-size: cover;
         width: 100vw;
     }
     .home-page h1 {
         font-size: 15vh;
-        bottom: 18vh;
+        bottom: 15vh;
+        line-height: 15vh;
     }
     .blob {
         height: 100vh;
@@ -94,7 +95,7 @@
     .home-page .fixed-links-container {
         right: 0;
         bottom: 0;
-        height: 20vh;
+        height: 15vh;
         flex-direction: row;
         width: 100vw;
         justify-content: space-evenly;
