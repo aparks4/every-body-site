@@ -89,7 +89,8 @@
 
 @media only screen and (max-width: 480px) {
   .team-page {
-    height: 240vh;
+    height: 210vh;
+
   }
 
   .team-page h2 {
