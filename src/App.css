@@ -35,14 +35,6 @@
   width: 100vw;
   background-color: var(--brick);
   z-index: 3;
-  /* padding-left: 20px;
-  border-style: double;
-  border-width: 6px;
-  border-top: hidden;
-  border-left: hidden;
-  border-bottom-right-radius: 20px; */
-  /* padding-bottom: 20px;
-  padding-right: 10px; */
 }
 .nav-btn {
   background-color: rgba(0, 0, 0, 0);
@@ -124,7 +116,7 @@
   bottom: 6vh; 
   height: 20vh;
   width: 5vw;
-  z-index: 4;
+  z-index: 1;
 }
 .fixed-links-container a {
   text-decoration: none;
@@ -145,6 +137,33 @@
   align-items: center;
 }
 
+@media only screen and (max-width: 1050px) {
+  .nav-btn {
+    top: 2vh;
+    font-size: 6vh;
+    line-height: 5vh;
+  }
+  .x-btn {
+      top: 2vh;
+      left: 3.5vw;;
+      padding: 0;
+      margin: 0;
+  }
+  .nav a {
+      color: var(--darkPink);
+      font-size: 5vh;
+  }
+  .nav a:hover {
+      text-decoration: underline;
+  }
+  .fixed-links-container {
+    right: 5vw;
+  }
+  .fixed-links-container a {
+    font-size: 4.5vh;
+  }
+
+}
 
 @media only screen and (max-width: 480px) {
   .web-nav {
