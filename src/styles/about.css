@@ -6,7 +6,7 @@
   justify-content: space-evenly;
   align-items: center;
   font-family: 'Spicy Rice';
-  z-index: 1;
+  z-index: 0;
 }
 
 .bg-blob {
@@ -72,7 +72,7 @@
 
 .our-story-container {
   color: black;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
   height: 100%;
   width: 35vw;
@@ -117,15 +117,15 @@
 
 @media only screen and (max-width: 1050px) {
   .about-page {
-    height: 340vh;
+    height: 420vh;
   }
   .our-mission-container h3 {
-    font-size: 2.8vh;
+    font-size: 4vh;
   }
   .our-mission-container {
     margin-bottom: 0;
-    width: 85vw;
-    padding-top: 45px;
+    width: 75vw;
+    padding-top: 25px;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 0;
@@ -139,13 +139,13 @@
 
   .about-page h2 {
     font-size: 4.5vh;
-    margin-top: 0;
+    margin-top: 2vh;
     margin-bottom: 0;
     line-height: 4vh;
   }
   .about-page-main {
     width: 100vw;
-    height: 80vh;
+    height: 150vh;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: space-evenly;
@@ -154,23 +154,20 @@
   }
 
   .our-story-container {
-    font-size: 14px;
+    font-size: 3.3vh;
     width: 70vw;
-    height: 50vh;
+    height: 75vh;
   }
 
   .about-us-pic-container {
     align-items: center;
     margin-bottom: 2vh;
-    height: 35vh;
+    height: 65vh;
     margin-top: 0;
   }
   .about-us-pic {
     width: 75vw;
-  }
-
-  .our-story-container {
-    font-size: 22px;
+    height: 100%;
   }
 
 }
@@ -213,7 +210,7 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-    .our-story-container {
+  .our-story-container {
     font-size: 14px;
     width: 70vw;
     height: 50vh;

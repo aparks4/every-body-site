@@ -90,7 +90,8 @@
 
 @media only screen and (max-width: 1050px) {
   .team-page {
-    height: 210vh;
+    height: 220vh;
+    margin-top: 5vh;
 
   }
 
@@ -119,7 +120,7 @@
   }
 
   .team-member-blurb {
-    font-size: 17px;
+    font-size: 15px;
     width: 70vw;
     height: 35vh;
   }
