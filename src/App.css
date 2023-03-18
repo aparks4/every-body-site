@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.cdnfonts.com/css/belagio-font');
 
 :root {
   --litePink: rgb(255, 214, 226);
   --medPink: rgb(255, 207, 233);
-  --darkPink: rgb(235, 168, 221) ;
+  --darkPink: rgb(235, 168, 221);
   --litePurple: rgb(175, 154, 197);
   --medPurple: rgb(173, 144, 198);
   --darkPurple: rgb(93, 75, 125);
@@ -61,7 +62,7 @@
   text-decoration: none;
   color: black;
   font-family: 'Spicy Rice', cursive;
-  font-size: 4vh;
+  font-size: 6vh;
   margin: 2vh;
 }
 .nav a:hover {
@@ -114,7 +115,7 @@
   position: fixed;
   right: 3vw;
   bottom: 6vh; 
-  height: 20vh;
+  height: 35vh;
   width: 5vw;
   z-index: 1;
 }
@@ -122,6 +123,35 @@
   text-decoration: none;
   color: black;
   font-size: 6vh;
+  line-height: 6vh;
+}
+.register-icon {
+  font-weight: bolder;
+}
+.insta-icon-wrapper {
+  margin-top: 3px;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 6.5vh;
+  width: 15vh;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.icon-wrapper:hover {
+  overflow: visible;
+}
+.icon-wrapper p {
+  font-size: 2.5vh;
+  font-weight: bolder;
+  font-family: 'Abhaya Libre', serif;
+  line-height: 2vh;
+  margin-top: 5px;
+
 }
 .fixed-links-container a:hover {
   color: var(--darkPink);
@@ -129,12 +159,20 @@
 .nav .fixed-links-container {
   position: absolute;
   right: 0;
-  bottom: 10vh;
+  bottom: 15vh;
   height: 8vh;
   flex-direction: row;
   width: 100vw;
   justify-content: space-evenly;
   align-items: center;
+}
+.nav .icon-wrapper {
+  height: 8vh;
+  overflow: visible;
+}
+.nav .icon-wrapper p {
+  font-size: 2.5vh;
+  font-weight: bolder;
 }
 
 @media only screen and (max-width: 1050px) {

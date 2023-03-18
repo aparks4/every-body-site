@@ -36,6 +36,7 @@
 .team-page h2 {
   font-size: 5vh;
   margin-bottom: 3vh;
+  color: black
 }
 
 .team-members-container {
@@ -49,6 +50,7 @@
     border-width: 7px;
     border-radius: 20px;
     padding: 20px;
+    border-color: black;
 }
 
 .team-member-card {
@@ -58,6 +60,7 @@
     width: 25vw;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
   
 }
 .team-member-photo-container {
@@ -86,6 +89,7 @@
     display: flex;
     align-items: center;
     font-family: 'Abhaya Libre', serif;
+    color: black;
 }
 
 @media only screen and (max-width: 1050px) {

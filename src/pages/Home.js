@@ -16,8 +16,7 @@ export const HomePage = () => {
         <div className="home-page">
 
             <div className="drawing"></div>
-            <div className="blob"></div>
-            <h1>Every Body</h1>
+            <h1>every body</h1>
 
             <FixedLinks />
 
