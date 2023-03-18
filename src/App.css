@@ -230,5 +230,24 @@
   .nav a:hover {
       text-decoration: underline;
   }
+  .nav .fixed-links-container a {
+    height: 5vh;
+  }
+  .nav .icon-wrapper p {
+    color: var(--darkPink);
+    font-size: 10px;
+    line-height: 10.5px;
+  }
+  .icon-wrapper p {
+    font-size: 10px;
+    line-height: 10.5px;
+  }
+  .icon-wrapper {
+    height: 5vh;
+    margin: 0;
+  }
+  .fixed-links-container {
+    height: 20vh;
+  }
 }
 

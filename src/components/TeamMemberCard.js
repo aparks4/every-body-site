@@ -21,7 +21,7 @@ export const TeamMemberCard = (props) => {
                     </div>
                 : 
                     <div className="team-member-photo-container">
-                        <div className="team-member-photo" style={{"background-image": `url(${props.photoURL})`}}>
+                        <div className="team-member-photo" style={{"backgroundImage": `url(${props.photoURL})`}}>
 
                         </div>
                         <p>{props.name}</p>

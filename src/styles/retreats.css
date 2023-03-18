@@ -104,9 +104,36 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .retreats-page {
+        height: 250vh;
+    }
     .retreats-page p {
         font-size: 13px;
     }
+    .retreats-main {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 150vh;
+        width: 95%;
+
+    }
+    .date-location-container {
+        width: 95%;
+        height: 110vh;
+        justify-content: space-between;
+    }
+    .dates-section {
+        height: 25%;
+    }
+    .location-section {
+        height: 75%;
+    }
+    .itenerary-section {
+        border-left: hidden;
+        border-top: solid;
+        width: 95%;
+    }
+    
 
 }
 
