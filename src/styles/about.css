@@ -7,6 +7,8 @@
   align-items: center;
   font-family: 'Tan Nimbus';
   z-index: 0;
+  background-color: var(--darkPurple);
+  color: var(--brown);
 }
 
 .our-mission-container {
@@ -45,7 +47,6 @@
   font-size: 3.5vh;
   margin-top: 4vh;
   margin-bottom: 0;
-  color: black;
 }
 .about-us-pic {
   height: 35vh;;

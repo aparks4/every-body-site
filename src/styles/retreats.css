@@ -7,6 +7,8 @@
     align-items: center;
     justify-content: flex-start;
     z-index: 0;
+    background-color: var(--medPink);
+    color: var(--brick);
 }
 
 /* .retreats-page .nav-btn, .retreats-page .fixed-links-container a {
@@ -136,7 +138,7 @@
     .retreats-main {
         flex-direction: column;
         justify-content: space-between;
-        height: 180vh;
+        height: 130vh;
         width: 95%;
     }
     .date-location-container {
