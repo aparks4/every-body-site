@@ -133,7 +133,7 @@
     .retreats-main {
         flex-direction: column;
         justify-content: space-between;
-        height: 130vh;
+        height: 165vh;
         width: 95%;
     }
     .date-location-container {
