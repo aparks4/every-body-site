@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    font-family: 'Spicy Rice';
+    font-family: 'Tan Nimbus';
     height: 140vh;
     width: 100vw;
     z-index: 1;
@@ -34,7 +34,7 @@
 }
 
 .team-page h2 {
-  font-size: 5vh;
+  font-size: 3.5vh;
   margin-bottom: 3vh;
   color: black
 }
@@ -65,8 +65,7 @@
 }
 .team-member-photo-container {
     width: 100%;
-    font-size: 3vh;
-    font-family: 'Spicy Rice';
+    font-size: 2.5vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,34 +130,55 @@
 
 }
 
+@media only screen and (max-width: 780px) {
+  .team-page h2 {
+    font-size: 3.5vh;
+  }
+  .team-page {
+    margin-top: 2vh;
+    height: 320vh;
+  }
+  .team-members-container {
+    height: 260vh;
+  }
+  .team-member-photo-container {
+    font-size: 3vh;
+    margin: 2vh;
+  }
+  .team-member-photo {
+    height: 38vh;
+    width: 40vw;
+  }
+  .team-member-blurb {
+    font-size: 12px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
+  .team-page {
+    height: 280vh;
+  }
 
   .team-page h2 {
-    font-size: 4vh;
+    font-size: 3vh;
     margin-top: 1vh;
   }
-
-  /* .team-members-container {
-    width: 90vw;
-    padding: 10px;
-    flex-direction: column;
-  } */
-  /* .team-member-card {
-    height: 40vh;
-    width: 40vw;
-  } */
+  .team-members-container {
+    height: 210vh;
+  }
 
   .team-member-photo-container {
-    font-size: 2.5vh;
+    font-size: 2vh;
+    width: 50vw;
   }
-/* 
+
   .team-member-photo {
     height: 30vh;
     width: 30vh;
-  } */
+  }
 
   .team-member-blurb {
-    font-size: 12px;
+    font-size: 13px;
   }
 
 }

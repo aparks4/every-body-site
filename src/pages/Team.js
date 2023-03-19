@@ -6,7 +6,7 @@ export const TeamPage = (props) => {
         <div className="team-page">
             {/* <div className="bg-top"></div>
             <div className="bg-bottom"></div> */}
-            <h2>Our Team</h2>
+            <h2>Meet the Team</h2>
             <div className="team-members-container">
                 <TeamMemberCard 
                     name={'Ellie Bearnson'} 

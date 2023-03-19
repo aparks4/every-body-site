@@ -18,31 +18,35 @@ export const AboutPage = () => {
             <div className="about-page">
 
                 <div className="our-mission-container">
-                    <h3>Our mission is to help everybody understand that <span className="every-body-bold">every body</span> is worthy of <br /> <span className="love-respect-care">love, respect, & care.</span></h3>
+                    <h3>Our mission is to help everybody understand that <br/><span className="every-body">every body</span><br/> is worthy of <br /> <span className="love-respect-care">love, respect, & care.</span></h3>
                 </div>
 
                 <h2>Our Story</h2>
 
-                <div className="about-page-main">
-
-                    <div className="our-story-container">
-
-                        <p>All four of us have our own stories of how we overcame disordered eating and broken body image. As a result, we have a shared passion and drive to help others accept and love the bodies they are in.</p>
-
-                        <p>Independently, we each had our own ideas for creating a space where people could learn how to heal their relationships with food and their bodies. When our paths crossed we knew we had to create something together.</p>
-
-                        <p>So, we created Every Body - a place where people can connect, learn, and heal together! This summer we are hosting retreats for girls & women. Through education provided by guest therapists and dieticians, we invite you to come and gain skills that will help you improve your relationship with your body and food. Walk away empowered and connected with new mentors and friends. Learn more about our upcoming retreats <Link to="/retreats">here</Link>.</p>
-
-                    </div>  
-                    
-                    
-                    <div className="about-us-pic-container">
-                        <div className="about-us-pic">
-                  
-                        </div>
-
-                    </div> 
-                </div>
+                <div className="our-story-container">
+                    <p>
+                        It started with a pancake breakfast on a winter morning when three college students met up to talk about something they all shared in common: a history with broken body image and disordered eating.
+                        <br/>
+                        <br/>
+                    </p>
+                        <div className="about-us-pic"></div>
+                    <p>
+                        <br/>
+                        Over the next few years, they realized they were not alone and, as it turns out, almost everybody shares some version of the same story. With diet culture and the beauty industry louder than ever, they knew that girls & women need resources and healing now, more than ever.
+                        <br/>
+                        <br/>
+                        So they created Every Body.
+                        <br/>
+                        <br/>
+                        At Every Body, our purpose is to provide an accessible community resource for eating disorder awareness and prevention. We offer impactful retreat experiences where girls & women can learn, connect, and heal together.
+                        <br/>
+                        <br/>
+                        Every Body is a place where women can walk away empowered—equipped with tools they need to combat harmful narratives and reclaim their relationships with their bodies; where women can walk away supported—connected with new mentors and friends who “get it,” and most of all, we hope that everybody walks away understanding that every body is worthy of love, respect, and care. Especially yours.
+                        <br/>
+                        <br/>
+                        *Disclaimer: Our retreats are not a substitute for professional treatment or therapy; however, they can be a preventative resource and valuable starting point for those seeking help.
+                    </p>
+                </div>  
 
                 <TeamPage />
 

@@ -35,18 +35,21 @@ export const Nav = () => {
         { to: '/', label: 'home' },
         { to: '/about', label: 'about us' },
         { to: '/retreats', label: 'retreats' },
+        { to: '/contact', label: 'contact'},
     ];
 
     return (
         <>
             {nav ? (
                 <div className="nav" ref={navRef}>
-                    {links.map((link) => {
-                        const isActive = link.to === location.pathname;
-                        return !isActive ? (
-                            <Link key={link.to} to={link.to}>{link.label}</Link>
-                        ) : null;
-                    })}
+                    <div className="nav-links-container">
+                        {links.map((link) => {
+                            const isActive = link.to === location.pathname;
+                            return !isActive ? (
+                                <Link key={link.to} to={link.to}>{link.label}</Link>
+                            ) : null;
+                        })}
+                    </div>
                     <button className="x-btn" onClick={() => setNav(false)}>☓</button>
                     <FixedLinks />
                 </div>

@@ -18,23 +18,29 @@
     position: absolute;
     right: 4vw;
     top: 0;
-    width: 10vw;
+    width: 15vw;
     text-align: right;
     font-weight: bold;
     font-size: 23px;
+}
+.home-tagline .every-body, .home-tagline .love-respect-care {
+    font-size: 20px;
+    line-height: 21px;
+    font-family: 'Tan Nimbus', serif;
 
 }
 
 .home-page h1 {
-    font-family: 'Spicy Rice', serif;
-    font-size: 10vw;
+    font-family: 'Tan Nimbus', serif;
+    font-size: 17vh;
+    line-height: 18vh;
     color: var(--darkPink);
     z-index: 1;
     margin-top: 0;
     margin-bottom: 0;
     align-self: flex-end;
     position: absolute;
-    bottom: 5vh;
+    bottom: 7vh;
     font-weight: 900;
 }
 .drawing {
@@ -49,16 +55,13 @@
 }
 
 @media only screen and (max-width: 1050px) {
-    .web-nav {
-        top: 4vh;
-    }
-    .web-nav a {
-        font-size: 4vh;
-    }
-
     .home-tagline {
         font-size: 18px;
         width: 20vw;
+        line-height: 19px;
+    }
+    .home-tagline .every-body, .home-tagline .love-respect-care {
+        font-size: 17px;
         line-height: 19px;
     }
     .drawing {
@@ -66,8 +69,8 @@
         bottom: 5vh;
     }
     .home-page h1 {
-        font-size: 20vh;
-        line-height: 20vh;
+        font-size: 15vh;
+        line-height: 18vh;
         bottom: 7vh;
         width: 80vw;
     }
@@ -79,9 +82,15 @@
     }
 }
 
-@media only screen and (max-width: 780) {
-    .home-page h1 {
-        color: white;
+@media only screen and (max-width: 780px) {
+    .home-tagline {
+        font-size: 17px;
+        width: 30vw;
+        line-height: 18px;
+    }
+    .home-tagline .every-body, .home-tagline .love-respect-care {
+        font-size: 14px;
+        line-height: 16px;
     }
 }
 
@@ -98,7 +107,7 @@
         width: 100vw;
     }
     .home-page h1 {
-        font-size: 16vh;
+        font-size: 10vh;
         bottom: 9vh;
         line-height: 15vh;
     }

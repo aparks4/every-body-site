@@ -1,11 +1,11 @@
 .about-page {
-  height: 260vh;
+  height: 300vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  font-family: 'Spicy Rice';
+  font-family: 'Tan Nimbus';
   z-index: 0;
 }
 
@@ -17,82 +17,61 @@
   border-width: 7px;
   border-top-right-radius: 100%;
   border-top-left-radius: 100%;
-  padding-left: 55px;
-  padding-right: 55px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 35px;
   border-color: black;
 }
 
 .our-mission-container h3 {
   font-family: 'Abhaya Libre', serif;
-  font-size: 3.5vh;
+  font-size: 4vh;
   text-align: center;
 }
 
-.every-body-bold {
-  font-size: 5vh;
-  font-weight: bolder;
+.about-page .every-body {
+  font-size: 4vh;
+  line-height: 5vh;
+  font-family: 'Tan Nimbus';
 }
 
-.love-respect-care {
-  font-size: 7vh;
-  font-family: 'Spicy Rice';
+.about-page .love-respect-care {
+  font-size: 4vh;
+  line-height: 5vh;
+  font-family: 'Tan Nimbus';
 }
 
 .about-page h2 {
-  font-size: 5vh;
+  font-size: 3.5vh;
   margin-top: 4vh;
-  color: black;
-}
-
-.about-page-main {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  z-index: 1;
-  height: 50vh;
-  margin-bottom: 5vh;
-
-}
-
-.our-story-container {
-  color: black;
-  font-size: 16px;
-  font-weight: bold;
-  height: 100%;
-  width: 35vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'Abhaya Libre', serif;
-  text-align: left;
-
-}
-.our-story-container p {
-  margin-top: 0;
   margin-bottom: 0;
-
+  color: black;
 }
-
-.about-us-pic-container {
-  height: 50vh;
-  width: 30vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
 .about-us-pic {
-  /* border-top-right-radius: 100%;
-  border-top-left-radius: 100%; */
-  height: 100%;
-  width: 90%;
+  height: 35vh;;
+  width: 40%;
   background-image: url('https://i.imgur.com/6pOIVQ7.jpg');
   background-position: center;
   background-size: cover;
   border-radius: 20px;
+}
+.our-story-container {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80vw;
+  height: 110vh;
+  font-family: 'Abhaya Libre', serif;
+  text-align: left;
+}
+.our-story-container p {
+  width: 65%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -100,30 +79,29 @@
     height: 420vh;
   }
   .our-mission-container h3 {
-    font-size: 4vh;
+    font-size: 3vh;
   }
   .our-mission-container {
     margin-bottom: 0;
     width: 75vw;
     padding-top: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 0;
   }
-  .every-body-bold {
-    font-size: 3.8vh;
+  .about-page .every-body {
+    font-size: 4vh;
   }
-  .love-respect-care {
-    font-size: 5vh;
+  .about-page .love-respect-care {
+    font-size: 4.5vh;
   }
-
   .about-page h2 {
     font-size: 4.5vh;
     margin-top: 2vh;
     margin-bottom: 0;
     line-height: 4vh;
   }
-  .about-page-main {
+  /* .about-page-main {
     width: 100vw;
     height: 150vh;
     flex-direction: column-reverse;
@@ -131,100 +109,91 @@
     justify-content: space-evenly;
     margin-top: 0;
     margin-bottom: 0;
-  }
+  } */
 
   .our-story-container {
     font-size: 3.3vh;
     width: 70vw;
     height: 75vh;
+    font-size: 15px;
   }
 
-  .about-us-pic-container {
-    align-items: center;
-    margin-bottom: 2vh;
-    height: 65vh;
-    margin-top: 0;
+}
+@media only screen and (max-width: 780px) {
+  .about-page {
+    height: 490vh;
+  }
+  .our-mission-container {
+    padding-top: 20px;
+    margin-top:10vh;
+  }
+  .about-page h2 {
+    font-size: 3.5vh;
+    margin-top: 8vh;
+  }
+  .about-page .love-respect-care, .about-page .every-body {
+    font-size: 3.5vh;
+    line-height: 4.5vh;
   }
   .about-us-pic {
     width: 75vw;
-    height: 100%;
+    height: 45vh;
+  }
+  .our-story-container {
+    width: 100vw;
+    height: 160vh;
+    margin-top: 2vh;
+    margin-bottom: 0;
+  }
+  .our-story-container p {
+    font-size: 14px;
+    width: 75%;
   }
 
 }
 
 @media only screen and (max-width: 480px) {
   .about-page {
-    height: 365vh;
+    height: 370vh;
   }
   .our-mission-container h3 {
-    font-size: 2.2vh;
+    font-size: 1.9vh;
   }
 
   .our-mission-container {
     margin-bottom: 0;
-    margin-top: 4vh;
-    width: 85vw;
-    padding-top: 25px;
+    margin-top: 6vh;
+    width: 90vw;
+    padding-top: 35px;
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .every-body-bold {
-    font-size: 3.2vh;
-  }
-
-  .love-respect-care {
-    font-size: 3.5vh;
+  .about-page .love-respect-care, .about-page .every-body {
+    font-size: 2.5vh;
   }
 
   .about-page h2 {
-    font-size: 4vh;
+    font-size: 2.5vh;
+    margin-top: 5vh;
   }
-
-  .about-page-main {
+  .about-us-pic {
+    width: 75vw;
+  }
+  .our-story-container {
+    font-size: 14px;
     width: 100vw;
-    height: 80vh;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 0;
+    height: 130vh;
+    margin-top: 2vh;
     margin-bottom: 0;
   }
-  .our-story-container {
-    font-size: 14px;
-    width: 70vw;
-    height: 50vh;
-  }
-
-  .about-us-pic-container {
-    align-items: center;
-    margin-bottom: 2vh;
-    height: 35vh;
-    margin-top: 0;
-  }
-  .about-us-pic {
-    width: 75vw;
-  }
-
-  .our-story-container {
-    font-size: 14px;
-    width: 70vw;
-    height: 50vh;
-  }
-
-  .about-us-pic-container {
-    align-items: center;
-    margin-bottom: 2vh;
-    height: 35vh;
-    margin-top: 0;
-  }
-  .about-us-pic {
-    width: 75vw;
+  .our-story-container p {
+    font-size: 13.5px;
+    width: 90%;
   }
   .fixed-links-container {
     right: 5vw;
     z-index: 0;
-
   }
   .fixed-links-container a {
     font-size: 3.5vh;
