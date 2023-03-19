@@ -107,15 +107,16 @@
         width: 100vw;
     }
     .home-page h1 {
-        font-size: 10vh;
+        font-size: 12vh;
         bottom: 9vh;
+        width: 100vw;
         line-height: 15vh;
     }
     .home-page .fixed-links-container {
         position: absolute;
         right: 0;
         bottom: 0;
-        height: 5vh;
+        height: 7vh;
         flex-direction: row;
         width: 100vw;
         justify-content: space-evenly;

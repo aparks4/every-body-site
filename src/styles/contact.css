@@ -39,4 +39,7 @@
     .contact-page h2 {
         font-size: 4vh;
     }
+    .contact-link-container p {
+        font-weight: bold;
+    }
 }
