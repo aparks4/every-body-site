@@ -101,14 +101,14 @@
         top: 0;
     }
     .drawing {
-        height: 75vh;
+        height: 73vh;
         bottom: 8vh; 
         background-size: cover;
         width: 100vw;
     }
     .home-page h1 {
-        font-size: 11vh;
-        bottom: 9vh;
+        font-size: 11.5vh;
+        bottom: 11vh;
         width: 100vw;
         line-height: 15vh;
     }
@@ -116,7 +116,7 @@
         position: absolute;
         right: 0;
         bottom: 0;
-        height: 7vh;
+        height: 9vh;
         flex-direction: row;
         width: 100vw;
         justify-content: space-evenly;
