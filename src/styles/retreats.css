@@ -136,7 +136,7 @@
     .retreats-main {
         flex-direction: column;
         justify-content: space-between;
-        height: 125vh;
+        height: 180vh;
         width: 95%;
     }
     .date-location-container {
@@ -149,6 +149,7 @@
     }
     .dates-section p {
         line-height: 15px;
+        font-weight: bold;
     }
     .location-section {
         height: 70%;
@@ -160,7 +161,6 @@
         height: 75vh;
     }
     
-
 }
 
 

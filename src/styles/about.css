@@ -154,7 +154,7 @@
 
 @media only screen and (max-width: 480px) {
   .about-page {
-    height: 420vh;
+    height: 400vh;
   }
   .our-mission-container h3 {
     font-size: 1.9vh;
