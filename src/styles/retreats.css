@@ -7,7 +7,6 @@
     align-items: center;
     justify-content: flex-start;
     z-index: 0;
-    background-color: var(--medPink);
     color: var(--brick);
 }
 
@@ -15,13 +14,12 @@
     color: var(--yellowBrown);
 } */
 
-.retreats-page p {
-    color: black;
-}
-
 .retreats-page h1 {
     margin-top: 6vh;
     margin-bottom: 2vh;
+}
+.retreats-page p {
+    color: var(--brick);
 }
 
 .retreats-main {
@@ -35,7 +33,6 @@
     border-radius: 20px;
     border-style: double;
     border-width: 7px;
-    border-color: black;
 }
 
 .retreats-page h2 {
@@ -69,7 +66,6 @@
 }
 .dates-section {
     border-bottom: solid;
-    border-color: black;
     height: 35%;
     font-size: 19px;
 }
@@ -93,7 +89,6 @@
     justify-content: flex-start;
     align-items: center;
     border-left: solid;
-    border-color: black;
     font-family: 'Abhaya Libre', serif;
     font-weight: bold;
 }
@@ -160,7 +155,7 @@
         border-left: hidden;
         border-top: solid;
         width: 95%;
-        height: 60vh;
+        height: 75vh;
     }
     
 }

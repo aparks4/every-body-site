@@ -7,8 +7,7 @@
   align-items: center;
   font-family: 'Tan Nimbus';
   z-index: 0;
-  background-color: var(--darkPurple);
-  color: var(--brown);
+  color: var(--darkPurple);
 }
 
 .our-mission-container {
@@ -22,7 +21,6 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 35px;
-  border-color: black;
 }
 
 .our-mission-container h3 {
@@ -57,7 +55,6 @@
   border-radius: 20px;
 }
 .our-story-container {
-  color: black;
   font-size: 16px;
   font-weight: bold;
   display: flex;

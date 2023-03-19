@@ -27,9 +27,6 @@
     font-size: 8.5vh;
     margin: 0;
 }
-.contact-link-container a:hover, .contact-page .nav-btn:hover {
-    color: var(--brown);
-}
 .contact-link-container p {
     font-size: 15px;
     margin: 0;
