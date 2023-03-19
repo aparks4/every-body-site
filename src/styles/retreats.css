@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: flex-start;
     z-index: 0;
-    color: var(--brick);
+    color: black;
 }
 
 /* .retreats-page .nav-btn, .retreats-page .fixed-links-container a {
