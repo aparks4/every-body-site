@@ -96,19 +96,19 @@
 
 @media only screen and (max-width: 480px) {
     .home-tagline {
-        font-size: 16px;
+        font-size: 15px;
         right: 5vw;
         top: 0;
     }
     .drawing {
         height: 73vh;
-        bottom: 8vh; 
+        bottom: 5vh; 
         background-size: cover;
         width: 100vw;
     }
     .home-page h1 {
         font-size: 11.8vh;
-        bottom: 10vh;
+        bottom: 7vh;
         width: 100vw;
         line-height: 15vh;
     }
@@ -116,7 +116,7 @@
         position: absolute;
         right: 0;
         bottom: 0;
-        height: 9vh;
+        height: 7vh;
         flex-direction: row;
         width: 100vw;
         justify-content: space-evenly;

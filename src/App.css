@@ -212,13 +212,6 @@
       font-size: 5vh;
       line-height: 5vh;
   }
-  .x-btn {
-      top: 1vh;
-      left: 3.5vw;
-      padding: 0;
-      margin: 0;
-      height: 4.5vh;
-  }
   .nav a {
       color: var(--darkPink);
       font-size: 4vh;

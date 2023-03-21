@@ -8,7 +8,9 @@
     font-family: 'Tan Nimbus';
     color: var(--brown);
 }
-
+.contact-page .nav-btn {
+    color: var(--brown);
+}
 .contact-page h2{
     margin-top: 5vh;
     font-size: 5vh;
@@ -27,7 +29,7 @@
     margin: 0;
 }
 .contact-link-container a:hover {
-    color: black;
+    color: var(--yellowBrown);
 }
 .contact-link-container p {
     font-size: 15px;

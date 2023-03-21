@@ -13,7 +13,9 @@
   z-index: 0;
   color: var(--brown);
 }
-
+.about-page .nav-btn {
+  color: var(--brown);
+}
 .our-mission-container {
   margin-top: 6vh;
   width: 50%;

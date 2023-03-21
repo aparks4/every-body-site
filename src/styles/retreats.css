@@ -9,6 +9,9 @@
     z-index: 0;
     color: var(--brown);
 }
+.retreats-page .nav-btn {
+    color: var(--brown);
+}
 .retreats-page h1 {
     font-family: 'Tan NImbus';
     margin-bottom: 0;
@@ -87,6 +90,8 @@
 }
 .info-section h2 {
     font-family: 'Tan Nimbus';
+    text-decoration: underline;
+    text-decoration-style: double;
 }
 .location-section iframe {
     height: 35vh;
@@ -102,7 +107,7 @@
 .speakers-btn {
     background-color: rgba(0, 0, 0, 0);
     border: none;
-    font-size: 17px;
+    font-size: 20px;
     cursor: pointer;
     text-decoration: underline;
     text-decoration-style: double;
@@ -122,15 +127,17 @@
         width: 60vw;
     }
     .info-buttons-container {
-        width: 82%;
         margin-left: 5vw;
     }
     .info-btn {
-        height: 3.3vh;
+        height: 4vh;
     }
     .register-btn {
         width: 50%;
-        border-width: 4.5px;
+        border-width: 5.5px;
+    }
+    .info-btn:hover {
+        border-width: 2px;
     }
 }
 

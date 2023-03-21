@@ -11,10 +11,8 @@ import { FixedLinks } from '../components/FixedLinks';
 export const AboutPage = () => {
     return (
         <>  
-            <Nav />
-            {/* <WebNav /> */}
-            {/* <div className="bg-blob"></div> */}
             <div className="about-page">
+                <Nav />
 
                 <div className="our-mission-container">
                     <h3>Our mission is to help everybody understand that <br/><span className="every-body">every body</span><br/> is worthy of <br /> <span className="love-respect-care">love, respect, & care.</span></h3>
