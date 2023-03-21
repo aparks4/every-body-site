@@ -93,6 +93,9 @@
     text-decoration: underline;
     text-decoration-style: double;
 }
+.info-section p {
+    font-weight: bolder;
+}
 .location-section iframe {
     height: 35vh;
     width: 30vw;
