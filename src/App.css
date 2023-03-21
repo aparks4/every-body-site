@@ -219,6 +219,9 @@
   .nav a:hover {
       text-decoration: underline;
   }
+  .nav .fixed-links-container {
+    bottom: 10vh;
+  }
   .nav .fixed-links-container a {
     height: 5vh;
   }
