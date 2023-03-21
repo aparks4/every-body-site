@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
 .about-page {
   height: 300vh;
   width: 100vw;
@@ -7,7 +11,7 @@
   align-items: center;
   font-family: 'Tan Nimbus';
   z-index: 0;
-  color: black;
+  color: var(--brown);
 }
 
 .our-mission-container {
@@ -24,18 +28,12 @@
 }
 
 .our-mission-container h3 {
-  font-family: 'Abhaya Libre', serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 4vh;
   text-align: center;
 }
 
-.about-page .every-body {
-  font-size: 4vh;
-  line-height: 5vh;
-  font-family: 'Tan Nimbus';
-}
-
-.about-page .love-respect-care {
+.about-page .love-respect-care, .about-page .every-body {
   font-size: 4vh;
   line-height: 5vh;
   font-family: 'Tan Nimbus';
@@ -63,7 +61,7 @@
   align-items: center;
   width: 80vw;
   height: 110vh;
-  font-family: 'Abhaya Libre', serif;
+  font-family: 'Raleway', sans-serif;
   text-align: left;
 }
 .our-story-container p {

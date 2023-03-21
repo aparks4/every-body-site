@@ -13,7 +13,7 @@ export const FixedLinks = () => {
                     <Link to ="https://docs.google.com/forms/d/e/1FAIpQLSecKfha0f4tSz1AdUo3aenF7I-97wPvA3cGGZQmM-POyKocZQ/viewform" target="_blank" rel="noreferrer">
                         <BsClipboardPlus className="register-icon" />
                     </Link>
-                    <p>Register</p>
+                    <p>register</p>
                 </div>
                 <div className="icon-wrapper insta-icon-wrapper">
                     <Link to="https://www.instagram.com/every.body.retreats/" target="_blank" rel="noreferrer">

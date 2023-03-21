@@ -13,7 +13,6 @@ export const AboutPage = () => {
         <>  
             <Nav />
             {/* <WebNav /> */}
-            <FixedLinks />
             {/* <div className="bg-blob"></div> */}
             <div className="about-page">
 
@@ -21,7 +20,7 @@ export const AboutPage = () => {
                     <h3>Our mission is to help everybody understand that <br/><span className="every-body">every body</span><br/> is worthy of <br /> <span className="love-respect-care">love, respect, & care.</span></h3>
                 </div>
 
-                <h2>Our Story</h2>
+                <h2>our story</h2>
 
                 <div className="our-story-container">
                     <p>

@@ -1,16 +1,11 @@
 import '../styles/test.css';
-import { Link } from 'react-router-dom';
-import { LoremIpsum } from 'react-lorem-ipsum';
-import { RegButton } from '../components/RegButton';
-import { WebNav } from '../components/WebNav';
-import { TeamMemberCard } from '../components/TeamMemberCard';
 import { FixedLinks } from '../components/FixedLinks';
 import { Nav } from '../components/Nav';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 export const TestPage = () => {
-    const ref = useRef();
+    const [date, setDate] = useState(1);
 
 
     return (
@@ -18,10 +13,54 @@ export const TestPage = () => {
             <div className="test-page">
                 <Nav />
                 <FixedLinks />
-                <div className="google-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.7893415485128!2d-111.8053121846433!3d40.634527479340456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752630752eaaaab%3A0x88b73b21ca6016bc!2s6415%20S%203000%20E%20suite%20%23200%2C%20Holladay%2C%20UT%2084121!5e0!3m2!1sen!2sus!4v1679107513697!5m2!1sen!2sus" width="100" height="100" style={{"border": "0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                <div className="button-test-container-wrapper">
+                    <div>
+                        <button onClick={() => {setDate(1)}}>June 17th</button>
+                        <button onClick={() => {setDate(2)}}>June 24th</button>
+                    </div>
+                    <div className='test-container'>
+                        <div className="speakers">
+                                {date === 1 ?
+                                    <>
+                                        <p>June 17th</p>
+                                        <p>
+                                            Keynote Address<br/>
+                                            <span style={{'font-family': '`Abhaya Libre`, serif'}}>
+                                                Heather Van
+                                            </span>
+                                        </p>
+                                        <p>
+                                            Breakout Session Speakers <br/>
+                                            <span style={{'font-family': '`Abhaya Libre`, serif'}}>
+                                                Lyndy Barnard<br/>
+                                                Devrie Pettit<br/>
+                                                Julie Newbry<br/> 
+                                            </span> 
+                                        </p>
+                                    </>
+                                    
+                                :   
+                                    <>
+                                        <p>June 24th</p>
+                                        <p>
+                                            Keynote Address<br/>
+                                            <span style={{'font-family': 'Abhaya Libre'}}>
+                                                Corinne Hannan
+                                            </span>
+                                        </p>
+                                        <p>
+                                            Breakout Session Speakers<br/>
+                                            <span style={{'font-family': 'Abhaya Libre'}}>
+                                                Kelsie Jepsen<br/>
+                                                Lauren Bishop<br/>
+                                                Ariel Hortin
+                                            </span>
+                                        </p>
+                                    </>
+                                }
+                        </div>
 
-                    </iframe>
+                    </div>
                 </div>
 
             </div>

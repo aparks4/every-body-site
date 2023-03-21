@@ -8,7 +8,6 @@
     width: 100vw;
     z-index: 1;
     margin-top: 2vh;
-    color: black;
 }
 
 
@@ -68,7 +67,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 .team-member-photo {
     height: 35vh;

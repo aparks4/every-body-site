@@ -6,8 +6,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Tan Nimbus';
-    background-color: var(--litePurple);
-    color: var(--darkPurple);
+    color: var(--brown);
 }
 
 .contact-page h2{
@@ -23,9 +22,12 @@
     width: 100vw;
 }
 .contact-link-container a {
-    color: black;
-    font-size: 8.5vh;
+    color: var(--brown);
+    font-size: 7.5vh;
     margin: 0;
+}
+.contact-link-container a:hover {
+    color: black;
 }
 .contact-link-container p {
     font-size: 15px;
