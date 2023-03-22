@@ -145,10 +145,10 @@
   }
   .team-member-photo {
     height: 38vh;
-    width: 40vw;
+    width: 35vw;
   }
   .team-member-blurb {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 

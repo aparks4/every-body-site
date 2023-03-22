@@ -66,7 +66,7 @@ export const RetreatsPage = () => {
                     <span>keynote address</span>
                     <br/>
                     <br/>
-                    Heather Van
+                    Heather Van Boerum
                 </p>
                 <p>
                     <span>breakout session speakers</span>

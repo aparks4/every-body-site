@@ -23,14 +23,15 @@
   --brown: rgb(191, 120, 56);
   --yellowBrown: rgb(207, 133, 34);
 }
-
+body {
+  background-color: antiquewhite;
+}
 .App {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background-color: antiquewhite;
 }
 
 .nav {
@@ -146,11 +147,11 @@
   overflow: hidden;
 }
 .icon-wrapper p {
-  font-size: 2.5vh;
+  font-size: 3vh;
   font-weight: bolder;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Abhaya Libre', serif;
   line-height: 2vh;
-  margin-top: 5px;
+  margin-top: 4px;
 }
 .fixed-links-container a:hover {
   color: var(--darkPink);

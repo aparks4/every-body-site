@@ -14,18 +14,21 @@
 }
 
 .home-tagline {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Abhaya Libre', serif;
     position: absolute;
     right: 4vw;
     top: 0;
-    width: 15vw;
+    width: 13vw;
     text-align: right;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 20px;
+    line-height: 20px;
+
 }
 .home-tagline .every-body, .home-tagline .love-respect-care {
-    font-size: 20px;
-    line-height: 21px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: lighter;
     font-family: 'Tan Nimbus', serif;
 
 }
@@ -57,12 +60,12 @@
 @media only screen and (max-width: 1050px) {
     .home-tagline {
         font-size: 17px;
-        width: 20vw;
-        line-height: 19px;
+        width: 18vw;
+        line-height: 17px;
     }
     .home-tagline .every-body, .home-tagline .love-respect-care {
-        font-size: 17px;
-        line-height: 19px;
+        font-size: 14px;
+        line-height: 17px;
     }
     .drawing {
         height: 90vh;
@@ -84,19 +87,19 @@
 
 @media only screen and (max-width: 780px) {
     .home-tagline {
-        font-size: 16px;
-        width: 30vw;
-        line-height: 18px;
+        font-size: 17px;
+        width: 25vw;
+        line-height: 17px;
     }
     .home-tagline .every-body, .home-tagline .love-respect-care {
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 13px;
+        line-height: 15px;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .home-tagline {
-        font-size: 15px;
+        font-size: 16px;
         right: 5vw;
         top: 0;
     }

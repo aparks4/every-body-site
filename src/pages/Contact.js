@@ -12,16 +12,16 @@ export const ContactPage = () => {
                 <h2>We'd love to hear from you!</h2>
                 <div className="contact-main">
                     <div className="contact-link-container">
-                        <Link to="https://www.instagram.com/every.body.retreats/" target="_blank" rel="noreferrer">
-                            <BsInstagram />
-                        </Link>
-                        <p>@everybodyretreats</p>
-                    </div>
-                    <div className="contact-link-container">
                         <Link to="mailto:everybodyretreats@gmail.com" target='_blank' rel='noreferrer'>
                             <FaRegEnvelope />
                         </Link>
                         <p>everybodyretreats@gmail.com</p>
+                    </div>
+                    <div className="contact-link-container">
+                        <Link to="https://www.instagram.com/every.body.retreats/" target="_blank" rel="noreferrer">
+                            <BsInstagram />
+                        </Link>
+                        <p>@every.body.retreats</p>
                     </div>
                 </div>
 

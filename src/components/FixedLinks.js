@@ -19,7 +19,7 @@ export const FixedLinks = () => {
                     <Link to="https://www.instagram.com/every.body.retreats/" target="_blank" rel="noreferrer">
                         <BsInstagram />
                     </Link>
-                    <p>@everybody<br/>retreats</p>
+                    <p>@every.body.<br/>retreats</p>
 
                 </div>
                 <div className="icon-wrapper">

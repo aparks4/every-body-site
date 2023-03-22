@@ -1,7 +1,7 @@
 .retreats-page {
     height: 130vh;
     width: 100vw;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Abhaya Libre', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +23,7 @@
     justify-content: center;
 }
 .info-buttons-container {
-    margin-left: 2vw;
+    margin-left: 3vw;
     width: 95%;
     display: flex;
 }
@@ -31,10 +31,13 @@
     background-color: rgba(0, 0, 0, 0);
     border-style: solid;
     border-bottom: hidden;
-    font-family: 'Tan Nimbus';
+    font-family: 'Abhaya Libre', serif;
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
     height: 4.5vh;
     padding: 7px;
+    padding-top: 4px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     background-color: var(--brown);
@@ -93,7 +96,8 @@
     margin-top: 0;
 }
 .info-section p {
-    font-weight: bolder;
+    font-weight: bold;
+    font-size: 17px;
 }
 .location-section iframe {
     height: 35vh;
@@ -119,8 +123,9 @@
     color: var(--brown);
 }
 .speakers-section span {
-    font-weight: bold;
     font-family: 'Tan Nimbus';
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 480px) {
