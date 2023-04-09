@@ -163,6 +163,8 @@ body {
 }
 .fixed-links-container .reg-btn {
   border: solid;
+  color: black;
+  border-color: black;
   background-color: var(--brown);
   font-family: 'Abhaya Libre', serif;
   font-size: 2vh;
