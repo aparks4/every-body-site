@@ -58,23 +58,23 @@ export const RetreatsPage = () => {
     const speakersA = () => {
         return(
             <div className="info-section speakers-section speakers-A">
-                <div>
-                    <button className="speakers-btn" onClick={() => {setDisplay(speakersA)}} style={{'font-family': 'Tan Nimbus'}}>june 17th</button>
+                <div className="speakers-btns-container">
+                    <button className="speakers-btn" onClick={() => {setDisplay(speakersA)}} style={{'background-color': 'var(--brown)', 'color': 'antiquewhite'}}>june 17th</button>
                     <button className="speakers-btn" onClick={() => {setDisplay(speakersB)}}>june 24th</button>
                 </div>
                 <p>
                     <span>keynote address</span>
                     <br/>
                     <br/>
-                    Heather Van Boerum
+                    Heather Van Boerum | Speaker, survivor of car accident resulting in two leg amputations
                 </p>
                 <p>
                     <span>breakout session speakers</span>
                     <br/>
                     <br/>
-                    Lyndy Barnard<br/>
-                    Devrie Pettit<br/>
-                    Julie Newbry<br/> 
+                    Lyndy Barnard, LCSW | Body Image and Disordered Eating Therapist<br/><br />
+                    Devrie Pettit, MS, RDN | Registered Dietician/Nutritionist<br/><br />
+                    Julie Newbry | Certified Personal Trainer, Intuitive Movement Expert<br/>
                 </p>
             </div>
         )
@@ -83,23 +83,23 @@ export const RetreatsPage = () => {
     const speakersB = () => {
         return(
             <div className="info-section speakers-section speakers-B">
-                <div>
+                <div className="speakers-btns-container">
                     <button className="speakers-btn" onClick={() => {setDisplay(speakersA)}}>june 17th</button>
-                    <button className="speakers-btn" onClick={() => {setDisplay(speakersB)}} style={{'font-family': 'Tan Nimbus'}}>june 24th</button>
+                    <button className="speakers-btn" onClick={() => {setDisplay(speakersB)}} style={{'background-color': 'var(--brown)', 'color': 'antiquewhite'}}>june 24th</button>
                 </div>
                 <p>
                     <span>keynote address</span>
                     <br/>
                     <br/>
-                    Corinne Hannan
+                    Corinne Hannan, PhD | Body image and Eating Disorder Therapist
                 </p>
                 <p>
                     <span>breakout session speakers</span>
                     <br/>
                     <br/>
-                    Kelsie Jepsen<br/>
-                    Lauren Bishop<br/>
-                    Ariel Hortin
+                    Kelsie Jepsen | Body Acceptance Coach<br/><br />
+                    Lauren Bishop, MPH, RDN, CD | Registered Dietician/Nutritionist<br/><br />
+                    Ariel Hortin, ACMHC | Dance Movement Therapist
                 </p>
             </div>
         )
