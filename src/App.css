@@ -248,5 +248,8 @@ body {
   .fixed-links-container, .nav-icons-container {
     height: 20vh;
   }
+  .fixed-links-container .reg-btn {
+    width: 9.5vh;
+  }
 }
 
