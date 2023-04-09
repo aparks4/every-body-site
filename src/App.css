@@ -182,6 +182,7 @@ body {
 }
 .reg-btn:hover {
   color: var(--darkPink);
+  border-color: var(--darkPink);
 }
 
 @media only screen and (max-width: 1050px) {
