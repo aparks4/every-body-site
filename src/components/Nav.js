@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
 import { CgEditUnmask } from 'react-icons/cg';
-import { FixedLinks } from './FixedLinks';
+import { NavIcons } from './NavIcons';
 
 export const Nav = () => {
     const [nav, setNav] = useState(false);
@@ -51,13 +51,10 @@ export const Nav = () => {
                         })}
                     </div>
                     <button className="x-btn" onClick={() => setNav(false)}>☓</button>
-                    <FixedLinks />
+                    <NavIcons />
                 </div>
             ) : (
                 <button className="nav-btn" onClick={displayNav}>☰</button>
-                // <button className="nav-btn" onClick={displayNav}>
-                //     ✢
-                // </button>
 
             )}
         </>

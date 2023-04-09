@@ -56,6 +56,18 @@
     position: absolute;
     bottom: 0;
 }
+/* .home-alert {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+    width: 10vw; 
+    position: absolute;
+    right: 4vw;
+    bottom: 30vh;
+    transform: rotate(345deg);
+}
+.arrow-icon {
+    transform: rotate(45deg);
+} */
 
 @media only screen and (max-width: 1050px) {
     .home-tagline {

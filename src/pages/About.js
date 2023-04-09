@@ -3,7 +3,6 @@ import { LoremIpsum } from 'react-lorem-ipsum';
 import { AnimatedText } from '../components/AnimatedText';
 import { Link } from 'react-router-dom';
 import { RegButton } from '../components/RegButton';
-import { WebNav } from '../components/WebNav';
 import { TeamPage } from './Team';
 import { Nav } from '../components/Nav';
 import { FixedLinks } from '../components/FixedLinks';

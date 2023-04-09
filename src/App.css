@@ -82,8 +82,6 @@ body {
 .nav a:hover {
   color: var(--darkPink);
 }
-
-
 .x-btn {
   color: black;
   background-color: rgba(0, 0, 0, 0);
@@ -99,24 +97,12 @@ body {
   color: var(--darkPink);
 }
 
-.web-nav {
-  font-family: 'Spicy Rice';
-  position: absolute;
-  top: 4vh;
-  left: 4vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  height: 20vh;
-  z-index: 2;
-}
-
-.fixed-links-container {
+.fixed-links-container, .nav-icons-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  text-align: center;
   position: fixed;
   right: 3vw;
   bottom: 3vh; 
@@ -124,7 +110,7 @@ body {
   width: 5vw;
   z-index: 1;
 }
-.fixed-links-container a {
+.fixed-links-container a, .nav-icons-container a {
   text-decoration: none;
   color: black;
   font-size: 6vh;
@@ -132,9 +118,6 @@ body {
 }
 .register-icon {
   font-weight: bolder;
-}
-.insta-icon-wrapper {
-  margin-top: 3px;
 }
 .icon-wrapper {
   display: flex;
@@ -144,7 +127,6 @@ body {
   height: 6.5vh;
   width: 15vh;
   margin-bottom: 5px;
-  overflow: hidden;
 }
 .icon-wrapper p {
   font-size: 3vh;
@@ -152,11 +134,12 @@ body {
   font-family: 'Abhaya Libre', serif;
   line-height: 2vh;
   margin-top: 4px;
+  text-align: center;
 }
 .fixed-links-container a:hover {
   color: var(--darkPink);
 }
-.nav .fixed-links-container {
+.nav-icons-container {
   position: absolute;
   right: 0;
   bottom: 15vh;
@@ -166,16 +149,36 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-.nav .icon-wrapper {
+.nav-icons-container .icon-wrapper {
   height: 8vh;
   overflow: visible;
 }
-.nav .icon-wrapper p {
+.nav-icons-container .icon-wrapper p {
   font-size: 2.5vh;
   font-weight: bolder;
   color: black;
 }
-.nav .icon-wrapper:hover {
+.nav-icons-container .icon-wrapper:hover {
+  color: var(--darkPink);
+}
+.fixed-links-container .reg-btn {
+  border: solid;
+  background-color: var(--brown);
+  font-family: 'Abhaya Libre', serif;
+  font-size: 2vh;
+  font-weight: bolder;
+  border-radius: 8px;
+  border-width: 3px;
+  height: 5vh;
+  width: 8.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  cursor: pointer;
+  align-self: center;
+}
+.reg-btn:hover {
   color: var(--darkPink);
 }
 
@@ -220,13 +223,13 @@ body {
   .nav a:hover {
       text-decoration: underline;
   }
-  .nav .fixed-links-container {
+  .nav-icons-container {
     bottom: 10vh;
   }
-  .nav .fixed-links-container a {
+  .nav-icons-container a {
     height: 5vh;
   }
-  .nav .icon-wrapper p {
+  .nav-icons-container .icon-wrapper p {
     font-size: 13px;
     color: var(--darkPink);
     margin-top: 0;
@@ -239,7 +242,7 @@ body {
     height: 5vh;
     margin: 0;
   }
-  .fixed-links-container {
+  .fixed-links-container, .nav-icons-container {
     height: 20vh;
   }
 }

@@ -116,7 +116,7 @@ export const RetreatsPage = () => {
             <Nav />
             <h1>summer 2023</h1>
             <h2>june 17th | june 24th</h2>
-            <Link className="register-btn">register now</Link>
+            <a className="register-btn wx-button" href="https://everybodyretreats.regfox.com/every-body-retreats" target="_blank" rel="noreferrer">register now</a>
             <div className="retreats-main">
                 <div className="info-buttons-container">
                     <div>
