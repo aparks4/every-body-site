@@ -12,7 +12,7 @@ export const HomePage = () => {
         <>
         <Nav />
 
-        <p className="home-tagline">helping everybody understand that <br/> <span className="every-body">every body</span><br/> is worthy of <br/> <span className="love-respect-care">love, respect,<br/> & care</span>.</p>
+        <p className="home-tagline">helping everybody understand that <br/> <span className="every-body">every body</span><br/> is worthy of <br/>love, respect,<br/> & care.</p>
 
         <div className="home-page">
             {/* <p className="home-alert">Register now for our summer retreats <br /><TbArrowWaveRightUp className="arrow-icon"/></p> */}
