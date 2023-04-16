@@ -1,11 +1,6 @@
 import '../styles/about.css';
-import { LoremIpsum } from 'react-lorem-ipsum';
-import { AnimatedText } from '../components/AnimatedText';
-import { Link } from 'react-router-dom';
-import { RegButton } from '../components/RegButton';
 import { TeamPage } from './Team';
 import { Nav } from '../components/Nav';
-import { FixedLinks } from '../components/FixedLinks';
 
 export const AboutPage = () => {
     return (
