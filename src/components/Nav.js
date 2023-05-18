@@ -35,6 +35,7 @@ export const Nav = () => {
         { to: '/', label: 'home' },
         { to: '/about', label: 'about us' },
         { to: '/retreats', label: 'retreats' },
+        { to: '/donate', label: 'donate'},
         { to: '/contact', label: 'contact'},
     ];
 

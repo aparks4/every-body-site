@@ -12,7 +12,12 @@
     padding: 0;
     background-color: var(--brown);
 }
-
+.home-page .nav-btn {
+    color: black;
+}
+.home-page .nav-btn:hover {
+    color: var(--darkPink);
+}
 .home-tagline {
     font-family: 'Abhaya Libre', serif;
     position: absolute;
@@ -25,14 +30,13 @@
     line-height: 20px;
 
 }
-.home-tagline .every-body, .home-tagline .love-respect-care {
-    font-size: 15px;
+.home-tagline .every-body {
+    font-size: 14px;
     line-height: 18px;
     font-weight: lighter;
     font-family: 'Tan Nimbus', serif;
 
 }
-
 .home-page h1 {
     font-family: 'Tan Nimbus', serif;
     font-size: 17vh;
@@ -56,18 +60,6 @@
     position: absolute;
     bottom: 0;
 }
-/* .home-alert {
-    font-family: 'Abhaya Libre', serif;
-    font-weight: bold;
-    width: 10vw; 
-    position: absolute;
-    right: 4vw;
-    bottom: 30vh;
-    transform: rotate(345deg);
-}
-.arrow-icon {
-    transform: rotate(45deg);
-} */
 
 @media only screen and (max-width: 1050px) {
     .home-tagline {
@@ -75,8 +67,8 @@
         width: 18vw;
         line-height: 17px;
     }
-    .home-tagline .every-body, .home-tagline .love-respect-care {
-        font-size: 13.5px;
+    .home-tagline .every-body {
+        font-size: 12px;
         line-height: 15px;
     }
     .drawing {
@@ -111,8 +103,8 @@
         right: 5vw;
         top: 0;
     }
-    .home-tagline .every-body, .home-tagline .love-respect-care {
-        font-size: 12.5px;
+    .home-tagline .every-body {
+        font-size: 12px;
         line-height: 13px;
     }
     .drawing {

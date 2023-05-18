@@ -9,9 +9,6 @@
     z-index: 0;
     color: var(--brown);
 }
-.retreats-page .nav-btn {
-    color: var(--brown);
-}
 .retreats-page h1 {
     font-family: 'Tan Nimbus';
     margin-bottom: 0;
@@ -113,6 +110,7 @@
     margin-top: 0;
     margin-bottom: 5%;
     border: solid;
+    border-radius: 10px;
 }
 .speakers-section {
     padding-top: 0;
@@ -143,6 +141,9 @@
 @media only screen and (max-width: 480px) {
     .retreats-page {
         height: 120vh;
+    }
+    .info-display {
+        height: 65vh;
     }
     .location-section iframe {
         height: 30vh;

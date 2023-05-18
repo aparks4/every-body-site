@@ -7,8 +7,9 @@ import { Nav } from '../components/Nav';
 export const ContactPage = () => {
     return (
         <>
+            <Nav />
+            
             <div className="contact-page">
-                <Nav />
                 <h2>We'd love to hear from you!</h2>
                 <div className="contact-main">
                     <div className="contact-link-container">

@@ -59,7 +59,7 @@ export const RetreatsPage = () => {
         return(
             <div className="info-section speakers-section speakers-A">
                 <div className="speakers-btns-container">
-                    <button className="speakers-btn" onClick={() => {setDisplay(speakersA)}} style={{'background-color': 'var(--brown)', 'color': 'antiquewhite'}}>june 17th</button>
+                    <button className="speakers-btn" onClick={() => {setDisplay(speakersA)}} style={{'background-color': 'var(--brown)', 'color': 'antiquewhite', 'border-top-left-radius': '5px', 'border-bottom-left-radius': '5px'}}>june 17th</button>
                     <button className="speakers-btn" onClick={() => {setDisplay(speakersB)}}>june 24th</button>
                 </div>
                 <p>
@@ -85,7 +85,7 @@ export const RetreatsPage = () => {
             <div className="info-section speakers-section speakers-B">
                 <div className="speakers-btns-container">
                     <button className="speakers-btn" onClick={() => {setDisplay(speakersA)}}>june 17th</button>
-                    <button className="speakers-btn" onClick={() => {setDisplay(speakersB)}} style={{'background-color': 'var(--brown)', 'color': 'antiquewhite'}}>june 24th</button>
+                    <button className="speakers-btn" onClick={() => {setDisplay(speakersB)}} style={{'background-color': 'var(--brown)', 'color': 'antiquewhite', 'border-top-right-radius': '5px', 'border-bottom-right-radius': '5px'}}>june 24th</button>
                 </div>
                 <p>
                     <span>keynote address</span>

@@ -4,6 +4,7 @@ import { AboutPage } from './pages/About';
 import { TeamPage } from './pages/Team';
 import { RetreatsPage } from './pages/Retreats';
 import { ContactPage } from './pages/Contact';
+import { DonatePage } from './pages/Donate';
 
 
 export const Main = () => {
@@ -11,8 +12,8 @@ export const Main = () => {
         <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
-            <Route path="/team" element={<TeamPage />} />
             <Route path="/retreats" element={<RetreatsPage />} />
+            <Route path="/donate" element={<DonatePage />} />
             <Route path="/contact" element={<ContactPage />} />
         </Routes>
     )

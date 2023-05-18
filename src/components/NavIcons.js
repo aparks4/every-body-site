@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import { BsClipboardCheck} from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
 import { FaRegEnvelope } from 'react-icons/fa';
+import { BiDonateHeart } from 'react-icons/bi';
+import { IoLogoVenmo } from 'react-icons/io5';
 
 export const NavIcons = () => {
     return (
@@ -18,7 +20,6 @@ export const NavIcons = () => {
                         <BsInstagram />
                     </Link>
                     <p>@every.body.<br/>retreats</p>
-
                 </div>
                 <div className="icon-wrapper">
                     <Link to="mailto:everybodyretreats@gmail.com" target='_blank' rel='noreferrer'>
@@ -26,6 +27,12 @@ export const NavIcons = () => {
                     </Link>
                     <p>everybodyretreats<br/>@gmail.com</p>
                 </div>
+                {/* <div className="icon-wrapper">
+                    <Link to="https://account.venmo.com/u/everybodyretreats" target="_blank" rel="noreferrer">
+                        <IoLogoVenmo />
+                    </Link>
+                    <p>donate</p>
+                </div> */}
             </div>
         
         </>

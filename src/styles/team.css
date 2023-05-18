@@ -9,8 +9,6 @@
     z-index: 1;
     margin-top: 2vh;
 }
-
-
 .team-page .bg-top {
     position: fixed;
     top: 0;
@@ -22,7 +20,6 @@
     border-bottom-right-radius: 100%;
 
 }
-
 .team-page .bg-bottom {
     position: fixed;
     bottom: 0;
@@ -32,12 +29,10 @@
     z-index: 0;
     border-top-left-radius: 100%;
 }
-
 .team-page h2 {
   font-size: 3.5vh;
   margin-bottom: 3vh;
 }
-
 .team-members-container {
     display: flex;
     align-items: center;
@@ -50,7 +45,6 @@
     border-radius: 20px;
     padding: 20px;
 }
-
 .team-member-card {
     display: flex;
     flex-direction: column;
@@ -76,7 +70,6 @@
     background-size: cover;
     border-radius: 20px;
 }
-  
 .team-member-blurb {
     height: 100%;
     width: 100%;
@@ -95,11 +88,9 @@
     margin-top: 5vh;
 
   }
-
   .team-page h2 {
     font-size: 4.5vh;
   }
-
   .team-members-container {
     width: 90vw;
     padding: 10px;
@@ -109,17 +100,14 @@
     height: 40vh;
     width: 40vw;
   }
-
   .team-member-photo-container {
     font-size: 3.5vh;
     line-height: 2.5vh;
   }
-
   .team-member-photo {
     height: 30vh;
     width: 30vh;
   }
-
   .team-member-blurb {
     font-size: 15px;
     width: 70vw;
@@ -154,9 +142,8 @@
 
 @media only screen and (max-width: 480px) {
   .team-page {
-    height: 250vh;
+    height: 100%;
   }
-
   .team-page h2 {
     font-size: 3vh;
     margin-top: 1vh;
@@ -164,17 +151,14 @@
   .team-members-container {
     height: 210vh;
   }
-
   .team-member-photo-container {
     font-size: 2vh;
     width: 50vw;
   }
-
   .team-member-photo {
     height: 30vh;
     width: 30vh;
   }
-
   .team-member-blurb {
     font-size: 13px;
   }

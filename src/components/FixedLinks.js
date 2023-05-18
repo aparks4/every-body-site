@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { BsInstagram } from 'react-icons/bs';
 import { FaRegEnvelope } from 'react-icons/fa';
+import { IoLogoVenmo } from 'react-icons/io5';
 
 
 
@@ -19,10 +20,16 @@ export const FixedLinks = () => {
                         <BsInstagram />
                     </Link>
                 </div>
-                <div className="icon-wrapper">
+                {/* <div className="icon-wrapper">
                     <Link to="mailto:everybodyretreats@gmail.com" target='_blank' rel='noreferrer'>
                         <FaRegEnvelope />
                     </Link>
+                </div> */}
+                <div className="icon-wrapper">
+                    {/* <a href="https://account.venmo.com/u/everybodyretreats" target="_blank" rel="noreferrer"><button className="reg-btn">donate</button></a> */}
+                    <a href="https://account.venmo.com/u/everybodyretreats" target="_blank" rel="noreferrer">
+                        <IoLogoVenmo />
+                    </a>
                 </div>
 
             </div>

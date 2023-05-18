@@ -13,9 +13,6 @@
   z-index: 0;
   color: var(--brown);
 }
-.about-page .nav-btn {
-  color: var(--brown);
-}
 .our-mission-container {
   margin-top: 6vh;
   width: 55%;
@@ -28,20 +25,17 @@
   padding-right: 0;
   padding-top: 25px;
 }
-
 .our-mission-container h3 {
   font-family: 'Abhaya Libre', serif;
   font-size: 4vh;
   text-align: center;
 }
-
 .about-page .love-respect-care, .about-page .every-body {
   font-size: 3vh;
   line-height: 5vh;
   font-family: 'Tan Nimbus';
   font-weight: lighter;
 }
-
 .about-page h2 {
   font-size: 3.5vh;
   margin-top: 4vh;
@@ -157,12 +151,12 @@
 
 @media only screen and (max-width: 480px) {
   .about-page {
-    height: 400vh;
+    height: 370vh;
+    /* height: 100%; */
   }
   .our-mission-container h3 {
     font-size: 1.9vh;
   }
-
   .our-mission-container {
     margin-bottom: 0;
     margin-top: 6vh;
@@ -171,12 +165,10 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-
   .about-page .love-respect-care, .about-page .every-body {
     font-size: 1.5vh;
     line-height: 1.5vh;
   }
-
   .about-page h2 {
     font-size: 3vh;
     margin-top: 5vh;
@@ -189,7 +181,7 @@
     width: 100vw;
     height: 130vh;
     margin-top: 2vh;
-    margin-bottom: 0;
+    margin-bottom: 5vh;
   }
   .our-story-container p {
     font-size: 13.5px;

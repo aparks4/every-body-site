@@ -1,0 +1,65 @@
+.donate-page {
+    font-family: 'Tan Nimbus', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    color: var(--brown);
+    padding-top: 10vh;
+}
+.donate-page .team-pic {
+    height: 45vh;
+    width: auto;
+    border-radius: 20px;
+}
+.donate-page .donate-btn {
+    cursor: pointer;
+    width: 32vw;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid;
+    border-radius: 15px;
+    border-width: 7px;
+    border-style: double;
+    color: var(--brown);
+    font-family: 'Tan Nimbus', serif;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.donate-page .donate-btn:hover {
+    background-color: var(--brown);
+    border-color: var(--brown);
+    color: var(--darkPink);
+}
+.donate-page p {
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 65%;
+}
+
+@media only screen and (max-width: 480px) {
+    .donate-page {
+        height: 80vh;
+        margin-top: 20%;
+    }
+    .donate-page h3 {
+        font-size: 2vh;
+        width: 95%;
+        line-height: 3vh;
+    }
+    .donate-page .team-pic {
+        width: 90vw;
+        height: 30vh;
+    }
+    .donate-page .donate-btn {
+        width: 50vw;
+    }
+    .donate-page p {
+        width: 90%;
+    }
+
+}

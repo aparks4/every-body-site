@@ -6,7 +6,6 @@ import './fonts/TAN-NIMBUS.ttf';
 function App() {
   return (
     <div className="App">
-      {/* <Nav /> */}
       <Main />
     </div>
   )

@@ -33,7 +33,6 @@ body {
   justify-content: center;
   align-content: center;
 }
-
 .nav {
   display: flex;
   flex-direction: column;
@@ -66,17 +65,16 @@ body {
   align-items: center;
   padding: 0;
   cursor: pointer;
-  color: black;
+  color: var(--brown);
 }
 .nav-btn:hover {
   color: var(--darkPink);
 }
-
 .nav a {
   text-decoration: none;
   color: black;
   font-family: 'Tan Nimbus', serif;
-  font-size: 6vh;
+  font-size: 5.5vh;
   margin: 3vh;
 }
 .nav a:hover {
@@ -96,7 +94,6 @@ body {
 .x-btn:hover {
   color: var(--darkPink);
 }
-
 .fixed-links-container, .nav-icons-container {
   display: flex;
   flex-direction: column;
@@ -104,11 +101,23 @@ body {
   justify-content: space-evenly;
   text-align: center;
   position: fixed;
+}
+.fixed-links-container {
   right: 3vw;
   bottom: 3vh; 
   height: 35vh;
   width: 5vw;
   z-index: 1;
+}
+.nav-icons-container {
+  position: absolute;
+  right: 0;
+  bottom: 8vh;
+  height: 15vh;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .fixed-links-container a, .nav-icons-container a {
   text-decoration: none;
@@ -124,8 +133,8 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 6.5vh;
-  width: 15vh;
+  /* height: 6.5vh;
+  width: 15vh; */
   margin-bottom: 5px;
 }
 .icon-wrapper p {
@@ -139,18 +148,8 @@ body {
 .fixed-links-container a:hover {
   color: var(--darkPink);
 }
-.nav-icons-container {
-  position: absolute;
-  right: 0;
-  bottom: 15vh;
-  height: 15vh;
-  flex-direction: row;
-  width: 100vw;
-  justify-content: space-evenly;
-  align-items: center;
-}
 .nav-icons-container .icon-wrapper {
-  height: 8vh;
+  width: 15vw;
   overflow: visible;
 }
 .nav-icons-container .icon-wrapper p {
@@ -251,5 +250,6 @@ body {
   .fixed-links-container .reg-btn {
     width: 9.5vh;
   }
+
 }
 
