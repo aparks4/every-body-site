@@ -1,6 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
-import { CgEditUnmask } from 'react-icons/cg';
 import { NavIcons } from './NavIcons';
 
 export const Nav = () => {

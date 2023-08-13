@@ -1,0 +1,56 @@
+.events-page {
+    font-family: 'Tan Nimbus', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--brown);
+    margin-top: 8vh;
+}
+.event-previews-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+.retreat-preview {
+    font-family: 'Abhaya Libre', serif;
+    padding: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    line-height: 10px;
+}
+.retreat-preview a {
+    text-decoration: none;
+    color: var(--brown);
+    font-size: 16px;
+    display: inline;
+}
+.retreat-preview a:hover {
+    font-weight: bold;
+}
+/* .retreat-preview button {
+    background-color: var(--brown);
+    color: antiquewhite;
+    font-family: 'Abhaya Libre', serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+.img-box {
+    height: 35vh;
+    width: 25vw;
+    background-position: center;
+    background-size: cover;
+}
+.loading {
+    position: absolute;
+    margin-top: 60vh;
+}
