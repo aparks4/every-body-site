@@ -64,6 +64,8 @@
     }
     .retreat-preview a {
         font-size: 18px;
+        margin: 7px;
+        text-decoration: underline;
     }
     .img-box {
         height: 25vh;
