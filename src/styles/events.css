@@ -57,10 +57,13 @@
 
 @media only screen and (max-width: 480px) {
     .events-page h1 {
-        font-size: 22px;
+        font-size: 25px;
     }
     .event-previews-wrapper {
         width: 97vw;
+    }
+    .retreat-preview a {
+        font-size: 18px;
     }
     .img-box {
         height: 25vh;
