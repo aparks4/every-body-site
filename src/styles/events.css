@@ -54,3 +54,16 @@
     position: absolute;
     margin-top: 60vh;
 }
+
+@media only screen and (max-width: 480px) {
+    .events-page h1 {
+        font-size: 22px;
+    }
+    .event-previews-wrapper {
+        width: 97vw;
+    }
+    .img-box {
+        height: 25vh;
+        width: 85vw;
+    }
+}
