@@ -6,6 +6,7 @@ import { ContactPage } from './pages/Contact';
 import { DonatePage } from './pages/Donate';
 import { EventsPage } from './pages/Events';
 import { RetreatDetailPage } from './pages/RetreatDetail';
+import { ResourcesPage } from './pages/Resources';
 
 
 export const Main = (props) => {
@@ -18,6 +19,7 @@ export const Main = (props) => {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/events" element={<EventsPage />} />
             {/* <Route path="/events/" element={<RetreatDetailPage />} /> */}
+            <Route path="/resources" element={<ResourcesPage />} />
         </Routes>
     )
 }
