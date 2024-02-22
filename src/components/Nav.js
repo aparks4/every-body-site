@@ -36,6 +36,7 @@ export const Nav = () => {
         { to: '/retreats', label: 'retreats' },
         { to: '/donate', label: 'donate'},
         { to: '/contact', label: 'contact'},
+        { to: '/resources', label: 'resources'},
     ];
 
     return (

@@ -1,5 +1,5 @@
-import "../styles/events.css";
-import { ResourceLink } from '../components/RetreatPreview';
+import "../styles/resources.css";
+import { ResourceLink } from '../components/ResourceLink';
 import { Nav } from '../components/Nav';
 import { useState, useEffect, React } from 'react';
 
@@ -10,7 +10,7 @@ export const ResourcesPage = () => {
 
     const fetchResources = async () => {
         try {
-            const response = await fetch(`${BASE_URL}/retreats`);
+            const response = await fetch(`${BASE_URL}/resources`);
             const allResources = await response.json();
             setResources(allResources);
 
@@ -33,14 +33,14 @@ export const ResourcesPage = () => {
     );
 
     const loading = () => {
-        return <h3 className="loading">Loading...</h3>
+        return <h3 className="loading"></h3>
     }
 
     return (
         <div className="resources-page">
             <Nav />
-            <h1>Resources</h1>
-            <div>
+            <h2>Resources</h2>
+            <div className='resources-wrapper'>
                 {resources && resources.length ? loaded() : loading()}
             </div>
         </div>
