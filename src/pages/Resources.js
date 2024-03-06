@@ -13,7 +13,6 @@ export const ResourcesPage = () => {
             const response = await fetch(`${BASE_URL}/resources`);
             const allResources = await response.json();
             setResources(allResources);
-
         } catch(err) {
             console.log(err);
         }
