@@ -10,7 +10,7 @@ export const FixedLinks = () => {
         <>
             <div className="fixed-links-container">
                 <div className="icon-wrapper">
-                    <Link to="https://everybodyretreats.regfox.com/every-body-moab-retreat" target="_blank" rel="noreferrer">
+                    <Link to="https://everybodyretreats.regfox.com/every-body-yoga-event" target="_blank" rel="noreferrer">
                         {/* <BsClipboardCheck className="register-icon" /> */}
                         <button className="reg-btn">register</button>
                     </Link>
