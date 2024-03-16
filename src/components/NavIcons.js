@@ -10,7 +10,7 @@ export const NavIcons = () => {
         <>
             <div className="nav-icons-container">
                 <div className="icon-wrapper">
-                    <Link to ="https://everybodyretreats.regfox.com/every-body-yoga-event" target="_blank" rel="noreferrer">
+                    <Link to ="https://everybodyretreats.com/retreats" target="_blank" rel="noreferrer">
                         <BsClipboardCheck className="register-icon" />
                     </Link>
                     <p>register</p>
