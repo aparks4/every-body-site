@@ -11,7 +11,7 @@ export const NavIcons = ({closeNav}) => {
         <>
             <div className="nav-icons-container">
                 <div className="icon-wrapper">
-                    <Link to ="https://everybodyretreats.com/retreats" onClick={() => { if (location.pathname !== "/retreats") closeNav(); }}>
+                    <Link to ="https://everybodyretreats.com/retreats" onClick={() => { if (location.pathname === "/retreats") closeNav(); }}>
                         <BsClipboardCheck className="register-icon" />
                     </Link>
                     <p>register</p>
