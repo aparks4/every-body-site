@@ -1,14 +1,17 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { BsClipboardCheck} from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
 import { FaRegEnvelope } from 'react-icons/fa';
 
-export const NavIcons = () => {
+export const NavIcons = ({closeNav}) => {
+    
+    const location = useLocation();
+    
     return (
         <>
             <div className="nav-icons-container">
                 <div className="icon-wrapper">
-                    <Link to ="https://everybodyretreats.com/retreats">
+                    <Link to ="https://everybodyretreats.com/retreats" onClick={() => { if (location.pathname !== "/retreats") closeNav(); }}>
                         <BsClipboardCheck className="register-icon" />
                     </Link>
                     <p>register</p>

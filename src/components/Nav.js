@@ -52,7 +52,7 @@ export const Nav = () => {
                         })}
                     </div>
                     <button className="x-btn" onClick={() => setNav(false)}>☓</button>
-                    <NavIcons />
+                    <NavIcons links={links} closeNav={() => setNav(false)}/>
                 </div>
             ) : (
                 <button className="nav-btn" onClick={displayNav}>☰</button>
