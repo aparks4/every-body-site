@@ -8,7 +8,7 @@ export const NavIcons = () => {
         <>
             <div className="nav-icons-container">
                 <div className="icon-wrapper">
-                    <Link to ="https://everybodyretreats.com/retreats" target="_blank" rel="noreferrer">
+                    <Link to ="https://everybodyretreats.com/retreats">
                         <BsClipboardCheck className="register-icon" />
                     </Link>
                     <p>register</p>
